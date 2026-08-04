@@ -63,10 +63,11 @@ Email, Facebook, YouTube และ GitHub ได้รับการยืน�
 
 ## Brand assets
 
-- Official horizontal logo: `docs/assets/images/kope-solution-logo.png`
-- Official square brand mark and favicon: `docs/assets/images/kope-solution-mark.png`
+- Primary horizontal logo for light backgrounds: `docs/assets/images/kope-solution-logo-2027.png`
+- Light horizontal logo for dark backgrounds: `docs/assets/images/kope-solution-logo-2027-light.png`
+- Square brand mark and favicon: `docs/assets/images/kope-solution-mark-2027.png`
 - Profile photograph: `docs/assets/images/profile-placeholder.svg`
 - Open Graph / social image: `docs/assets/images/social-placeholder.svg`
 
-โลโก้และ brand mark ใช้ asset ที่ปรับปรุงจากไฟล์ต้นฉบับของเจ้าของแล้ว ส่วนภาพโปรไฟล์และ social image ยังคงเป็น placeholder
+โลโก้ Version 2027 ใช้สีดำ ขาว แดง และน้ำเงิน โดยออกแบบเส้นวงจรด้านบน–ล่างให้เป็น geometry แบบ mirror และจัดซ้าย–ขวาให้สมดุลด้วย stroke และ node ที่สม่ำเสมอ ไฟล์รุ่นก่อนยังถูกเก็บไว้สำหรับย้อนกลับ ส่วนภาพโปรไฟล์และ social image ยังคงเป็น placeholder
 
