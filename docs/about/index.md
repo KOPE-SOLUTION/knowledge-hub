@@ -61,7 +61,7 @@ description: รู้จัก KOPE SOLUTION แนวทางการแบ�
 
 ช่องทางทั้งหมดยังเป็น placeholder ดูรายการที่ต้องอัปเดตในหน้า [Contact](../contact/index.md)
 
-## Brand assets to replace
+## Brand assets
 
 - Official horizontal logo: `docs/assets/images/kope-solution-logo.png`
 - Official square brand mark and favicon: `docs/assets/images/kope-solution-mark.png`
