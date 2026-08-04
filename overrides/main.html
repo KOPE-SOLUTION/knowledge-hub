@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <meta name="keywords" content="{{ config.extra.meta_keywords }}">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:type" content="{% if page and page.meta and page.meta.og_type %}{{ page.meta.og_type }}{% else %}website{% endif %}">
+  <meta property="og:title" content="{% if page and page.title %}{{ page.title }} · {{ config.site_name }}{% else %}{{ config.site_name }}{% endif %}">
+  <meta property="og:description" content="{% if page and page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}">
+  <meta property="og:url" content="{% if page and page.canonical_url %}{{ page.canonical_url }}{% else %}{{ config.site_url }}{% endif %}">
+  <meta property="og:image" content="{{ config.site_url }}{{ config.extra.social_image }}">
+  <meta property="og:image:alt" content="KOPE SOLUTION social sharing image placeholder — replace before promotion">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page and page.title %}{{ page.title }} · {{ config.site_name }}{% else %}{{ config.site_name }}{% endif %}">
+  <meta name="twitter:description" content="{% if page and page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}">
+  <meta name="twitter:image" content="{{ config.site_url }}{{ config.extra.social_image }}">
+  <link rel="alternate" type="application/rss+xml" title="KOPE SOLUTION Blog RSS" href="{{ config.site_url }}blog/feed.xml">
+{% endblock %}
+

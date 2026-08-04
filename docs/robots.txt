@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kope-solution.github.io/knowledge-hub/sitemap.xml
+

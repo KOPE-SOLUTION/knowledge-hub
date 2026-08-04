@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="900" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Creator profile photograph placeholder</title>
+  <desc id="desc">Placeholder for the real profile photograph of โก๊ป.</desc>
+  <rect width="720" height="900" rx="32" fill="#0e1a25"/>
+  <circle cx="360" cy="330" r="145" fill="#172b3b" stroke="#55e6ff" stroke-width="4" stroke-dasharray="12 10"/>
+  <path d="M140 790c18-190 104-290 220-290s202 100 220 290" fill="#172b3b" stroke="#55e6ff" stroke-width="4" stroke-dasharray="12 10"/>
+  <text x="360" y="826" fill="#f5fbff" font-family="Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle">PROFILE PHOTO PLACEHOLDER</text>
+  <text x="360" y="865" fill="#9eb0bf" font-family="Arial, sans-serif" font-size="24" text-anchor="middle">REPLACE WITH OWNER-PROVIDED IMAGE</text>
+</svg>
+

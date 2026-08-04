@@ -1,0 +1,211 @@
+site_name: KOPE SOLUTION
+site_url: https://kope-solution.github.io/knowledge-hub/
+site_description: ศูนย์รวมความรู้เชิงเทคนิค บทความ วิดีโอ โครงการ ผลงาน ผลิตภัณฑ์ และทรัพยากรของ KOPE SOLUTION
+site_author: โก๊ป
+repo_name: KOPE-SOLUTION/knowledge-hub
+repo_url: https://github.com/KOPE-SOLUTION/knowledge-hub
+edit_uri: edit/main/docs/
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+exclude_docs: |
+  !/templates/
+  !/templates/**
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: th
+  logo: assets/images/kope-solution-mark.png
+  favicon: assets/images/kope-solution-mark.png
+  font: false
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: เปลี่ยนเป็นโหมดสว่าง
+    - media: "(prefers-color-scheme: light)"
+      scheme: kope-light
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: เปลี่ยนเป็นโหมดมืด
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+
+plugins:
+  - search:
+      lang: en
+      separator: '[\\s\\-\\.\\_/]+'
+  - tags
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/site.js
+
+extra:
+  meta_keywords: KOPE SOLUTION, Embedded Systems, Industrial IoT, AIoT, IIoT, ESP32, STM32, Arduino, Sensors, MQTT, Modbus, Computer Vision, ภาษาไทย
+  social_image: assets/images/social-placeholder.svg
+  homepage: https://kope-solution.github.io/knowledge-hub/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/KOPE-SOLUTION/knowledge-hub
+      name: GitHub repository
+    - icon: fontawesome/brands/youtube
+      link: https://kope-solution.github.io/knowledge-hub/contact/#youtube
+      name: YouTube (placeholder — update in mkdocs.yml)
+    - icon: fontawesome/brands/facebook
+      link: https://kope-solution.github.io/knowledge-hub/contact/#facebook
+      name: Facebook (placeholder — update in mkdocs.yml)
+    - icon: fontawesome/solid/envelope
+      link: https://kope-solution.github.io/knowledge-hub/contact/#email
+      name: Email (placeholder — update in mkdocs.yml)
+
+copyright: Copyright &copy; 2026 KOPE SOLUTION · CONTRIBUTE — สร้างประโยชน์ต่อสังคม
+
+nav:
+  - Home: index.md
+  - About: about/index.md
+  - Knowledge Hub:
+      - ภาพรวม: knowledge/index.md
+      - Embedded Systems:
+          - ภาพรวม: knowledge/embedded/index.md
+          - Arduino Uno Embedded Roadmap:
+              - Overview: knowledge/embedded/arduino-uno/index.md
+              - GPIO: knowledge/embedded/arduino-uno/gpio.md
+              - UART: knowledge/embedded/arduino-uno/uart.md
+              - Timer: knowledge/embedded/arduino-uno/timer.md
+              - Interrupt: knowledge/embedded/arduino-uno/interrupt.md
+              - PWM: knowledge/embedded/arduino-uno/pwm.md
+              - ADC: knowledge/embedded/arduino-uno/adc.md
+              - SPI: knowledge/embedded/arduino-uno/spi.md
+              - I2C: knowledge/embedded/arduino-uno/i2c.md
+          - AVR Bare-Metal C: knowledge/embedded/avr-bare-metal-c.md
+          - ESP32: knowledge/embedded/esp32.md
+          - ESP-IDF: knowledge/embedded/esp-idf.md
+          - STM32: knowledge/embedded/stm32.md
+          - PIC: knowledge/embedded/pic.md
+          - Microcontroller Fundamentals: knowledge/embedded/microcontroller-fundamentals.md
+      - Communication Protocols:
+          - ภาพรวม: knowledge/protocols/index.md
+          - UART: knowledge/protocols/uart.md
+          - SPI: knowledge/protocols/spi.md
+          - I2C: knowledge/protocols/i2c.md
+          - RS-485: knowledge/protocols/rs-485.md
+          - Modbus RTU: knowledge/protocols/modbus-rtu.md
+          - Modbus TCP: knowledge/protocols/modbus-tcp.md
+          - MQTT: knowledge/protocols/mqtt.md
+          - Wi-Fi: knowledge/protocols/wi-fi.md
+          - Bluetooth: knowledge/protocols/bluetooth.md
+          - LoRa and LoRaWAN: knowledge/protocols/lora-lorawan.md
+          - 2.4 GHz RF: knowledge/protocols/2-4-ghz-rf.md
+      - Industrial and IoT:
+          - ภาพรวม: knowledge/industrial-iot/index.md
+          - Industrial IoT: knowledge/industrial-iot/industrial-iot.md
+          - AIoT: knowledge/industrial-iot/aiot.md
+          - IIoT: knowledge/industrial-iot/iiot.md
+          - Sensor Nodes: knowledge/industrial-iot/sensor-nodes.md
+          - Gateway Architecture: knowledge/industrial-iot/gateway-architecture.md
+          - Edge Computing: knowledge/industrial-iot/edge-computing.md
+          - MQTT Broker: knowledge/industrial-iot/mqtt-broker.md
+          - Offline Logging: knowledge/industrial-iot/offline-logging.md
+          - Device Monitoring: knowledge/industrial-iot/device-monitoring.md
+          - Remote Access: knowledge/industrial-iot/remote-access.md
+      - Sensors and Measurement:
+          - ภาพรวม: knowledge/sensors/index.md
+          - Temperature: knowledge/sensors/temperature.md
+          - Humidity: knowledge/sensors/humidity.md
+          - Airflow: knowledge/sensors/airflow.md
+          - Wind Speed: knowledge/sensors/wind-speed.md
+          - Differential Pressure: knowledge/sensors/differential-pressure.md
+          - Light and Irradiance: knowledge/sensors/light-irradiance.md
+          - Soil Sensors: knowledge/sensors/soil-sensors.md
+          - Gas Sensors: knowledge/sensors/gas-sensors.md
+          - Calibration: knowledge/sensors/calibration.md
+          - Measurement Uncertainty: knowledge/sensors/measurement-uncertainty.md
+          - Logic Analyzer: knowledge/sensors/logic-analyzer.md
+      - Software, Data, and AI:
+          - ภาพรวม: knowledge/software-data-ai/index.md
+          - Python: knowledge/software-data-ai/python.md
+          - Rust: knowledge/software-data-ai/rust.md
+          - C and C++: knowledge/software-data-ai/c-cpp.md
+          - Data Engineering: knowledge/software-data-ai/data-engineering.md
+          - Data Visualization: knowledge/software-data-ai/data-visualization.md
+          - Artificial Intelligence: knowledge/software-data-ai/artificial-intelligence.md
+          - Computer Vision: knowledge/software-data-ai/computer-vision.md
+          - TinyML: knowledge/software-data-ai/tinyml.md
+          - Edge AI: knowledge/software-data-ai/edge-ai.md
+  - Blog:
+      - บทความทั้งหมด: blog/index.md
+      - บทความตัวอย่าง — Embedded Systems: blog/posts/sample-embedded-article.md
+      - บทความตัวอย่าง — Industrial IoT: blog/posts/sample-industrial-iot-article.md
+      - หมวดหมู่: blog/categories.md
+      - แท็ก: blog/tags.md
+      - คลังบทความ: blog/archive.md
+  - YouTube:
+      - ศูนย์รวมวิดีโอ: youtube/index.md
+      - วิธีเพิ่มวิดีโอและ Playlist: youtube/adding-content.md
+  - Portfolio:
+      - ผลงานทั้งหมด: portfolio/index.md
+      - Arduino Uno Embedded Roadmap: portfolio/projects/arduino-uno-roadmap.md
+      - AVR Bare-Metal C Roadmap: portfolio/projects/avr-bare-metal-c-roadmap.md
+      - ESP32-S3 CAM Study: portfolio/projects/esp32-s3-cam-study.md
+      - Temperature Monitoring System: portfolio/projects/temperature-monitoring-system.md
+      - Smart Farm: portfolio/projects/smart-farm.md
+      - Industrial IoT Gateway: portfolio/projects/industrial-iot-gateway.md
+      - MQTT Sensor Gateway: portfolio/projects/mqtt-sensor-gateway.md
+      - Computer Vision Project: portfolio/projects/computer-vision-project.md
+      - Sensor and Measurement Experiments: portfolio/projects/sensor-measurement-experiments.md
+      - PCB Product Development: portfolio/projects/pcb-product-development.md
+  - Projects: projects/index.md
+  - Products:
+      - แค็ตตาล็อกผลิตภัณฑ์: products/index.md
+      - Notification Lamp Mini: products/notification-lamp-mini.md
+  - Downloads: downloads/index.md
+  - Contact: contact/index.md
+  - คู่มือผู้ดูแล:
+      - คู่มือจัดการเนื้อหา: contributing/index.md
+      - Templates: templates/index.md
+
