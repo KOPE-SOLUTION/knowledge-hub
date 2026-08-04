@@ -8,12 +8,12 @@ description: ศูนย์รวมวิดีโอ Playlist และ Serie
 พื้นที่รวมวิดีโอสอน การทดลอง บันทึกการพัฒนา และ Project Demonstrations โดยเชื่อมแต่ละวิดีโอกับ Knowledge Hub, Portfolio, Projects และ GitHub เมื่อมีข้อมูลจริง
 
 <div class="kope-actions">
-  <a class="md-button md-button--primary" href="https://example.com/replace-with-kope-youtube-channel">Subscribe — PLACEHOLDER ↗</a>
-  <a class="md-button" href="https://example.com/replace-with-featured-video">Watch on YouTube — PLACEHOLDER ↗</a>
+  <a class="md-button md-button--primary" href="https://www.youtube.com/@kopesolution?sub_confirmation=1">Subscribe ↗</a>
+  <a class="md-button" href="https://www.youtube.com/@kopesolution">เปิดช่องบน YouTube ↗</a>
 </div>
 
-!!! warning "ลิงก์ยังไม่ใช่ช่องจริง"
-    ปุ่มด้านบนใช้ `example.com` เพื่อแสดงตำแหน่งเท่านั้น ต้องแทนที่ YouTube channel URL และ video URL ก่อนเผยแพร่ประชาสัมพันธ์
+!!! info "Channel URL ยืนยันแล้ว"
+    ช่องหลักคือ `youtube.com/@kopesolution` ส่วน Featured video, Video ID และ Playlist ด้านล่างยังเป็น placeholder จนกว่าเจ้าของจะเลือกเนื้อหาจริง
 
 ## Featured video
 

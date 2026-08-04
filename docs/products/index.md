@@ -7,6 +7,11 @@ description: แค็ตตาล็อกแสดงผลิตภัณฑ�
 
 ส่วนนี้เป็น **product showcase และ promotional catalog** เท่านั้น ไม่ใช่ร้านค้า เว็บไซต์ไม่มี cart, checkout, payment gateway, customer account, customer database, order database หรือ inventory system
 
+!!! info "ช่องทางติดต่อสินค้าในเฟสแรก"
+    เมื่อมีสินค้าเปิดให้สอบถามหรือสั่งซื้อ จะใช้ **LINE Official Account ของ KOPE SOLUTION เพียงช่องทางเดียวในเฟสแรก** ขณะนี้ LINE URL/ID/QR code ยังเป็น placeholder และยังไม่มีการเปิดรับคำสั่งซื้อบนเว็บไซต์
+
+<a class="md-button md-button--primary" href="../contact/#line">ดูสถานะช่องทาง LINE</a>
+
 ## Product categories
 
 <div class="card-grid">

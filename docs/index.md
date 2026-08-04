@@ -84,9 +84,10 @@ KOPE SOLUTION สร้างพื้นที่กลางสำหรับ
 ## Contact and social links
 
 <div class="card-grid card-grid--four">
-  <div class="kope-card"><h3><a href="contact/#email">Email</a></h3><p>[PLACEHOLDER — เพิ่มอีเมลจริง]</p></div>
-  <div class="kope-card"><h3><a href="https://github.com/KOPE-SOLUTION/knowledge-hub">GitHub</a></h3><p>Repository เว็บไซต์</p></div>
-  <div class="kope-card"><h3><a href="contact/#youtube">YouTube</a></h3><p>[PLACEHOLDER — เพิ่ม Channel URL]</p></div>
-  <div class="kope-card"><h3><a href="contact/">ทุกช่องทาง</a></h3><p>Facebook, LINE, Shopee และ Business inquiry</p></div>
+  <div class="kope-card"><h3><a href="mailto:kittisak.hanheam@gmail.com">Email</a></h3><p>kittisak.hanheam@gmail.com</p></div>
+  <div class="kope-card"><h3><a href="https://github.com/KOPE-SOLUTION">GitHub</a></h3><p>KOPE-SOLUTION profile และ repositories</p></div>
+  <div class="kope-card"><h3><a href="https://www.youtube.com/@kopesolution">YouTube</a></h3><p>ช่อง @kopesolution</p></div>
+  <div class="kope-card"><h3><a href="https://www.facebook.com/people/KOPE-Solution/61558114805915/">Facebook</a></h3><p>KOPE Solution</p></div>
+  <div class="kope-card"><h3><a href="contact/#line">LINE</a></h3><p>ช่องทางสอบถามสินค้าเฟสแรก · รอ LINE OA URL</p></div>
 </div>
 

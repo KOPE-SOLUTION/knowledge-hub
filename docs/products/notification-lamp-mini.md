@@ -13,18 +13,17 @@ description: ตัวอย่างหน้า Product placeholder สำห�
     <p><strong>Short description:</strong> [PLACEHOLDER — เพิ่มคำอธิบายที่ยืนยันแล้ว]</p>
     <p><strong>Price:</strong> [PLACEHOLDER — ห้ามระบุจนกว่าเจ้าของจะยืนยัน]</p>
     <div class="kope-actions">
-      <a class="md-button md-button--primary" href="https://example.com/replace-with-marketplace-product-url">ซื้อผ่าน Marketplace — PLACEHOLDER ↗</a>
-      <a class="md-button" href="../../contact/">ติดต่อสอบถาม</a>
+      <a class="md-button md-button--primary" href="../../contact/#line">สอบถามผ่าน LINE — รอ URL</a>
     </div>
   </div>
   <div class="image-placeholder">PRODUCT HERO IMAGE PLACEHOLDER<br>เพิ่มภาพจริงที่ได้รับอนุญาต</div>
 </div>
 
 !!! danger "ตัวอย่างข้อมูลเท่านั้น"
-    หน้านี้เป็น placeholder ไม่ใช่ข้อเสนอขาย ยังไม่ยืนยันราคา สินค้าคงเหลือ การรับรอง สเปกไฟฟ้า ขนาด ผลทดสอบ ระยะรับประกัน หรือ Marketplace URL
+    หน้านี้เป็น placeholder ไม่ใช่ข้อเสนอขาย ยังไม่ยืนยันราคา สินค้าคงเหลือ การรับรอง สเปกไฟฟ้า ขนาด ผลทดสอบ ระยะรับประกัน หรือ LINE Official Account URL
 
 <div class="notice-marketplace">
-  <strong>การสั่งซื้อและชำระเงิน:</strong> เมื่อมีผลิตภัณฑ์จริง ปุ่มซื้อจะพาไปยัง Marketplace ภายนอก เช่น Shopee การสั่งซื้อ การชำระเงิน บัญชีลูกค้า และคำสั่งซื้อจะดำเนินการบน Marketplace นั้น ไม่ได้ทำบนเว็บไซต์ KOPE SOLUTION
+  <strong>ช่องทางเฟสแรก:</strong> เมื่อผลิตภัณฑ์พร้อมเปิดรับคำถามหรือคำสั่งซื้อ จะติดต่อผ่าน LINE Official Account ของ KOPE SOLUTION เพียงช่องทางเดียว เว็บไซต์นี้ใช้แสดงข้อมูลสินค้าและไม่มี cart, checkout, payment gateway หรือระบบเก็บคำสั่งซื้อ
 </div>
 
 ## Image gallery
@@ -96,7 +95,7 @@ description: ตัวอย่างหน้า Product placeholder สำห�
 
 ### สั่งซื้อบนเว็บไซต์นี้ได้หรือไม่
 
-ไม่ได้ เว็บไซต์นี้ไม่มี cart หรือ checkout เมื่อมีสินค้าจริง การสั่งซื้อจะเกิดบน Marketplace ภายนอกเท่านั้น
+ไม่ได้ เว็บไซต์นี้ไม่มี cart หรือ checkout ในเฟสแรกให้สอบถามและแจ้งความประสงค์สั่งซื้อผ่าน LINE Official Account ที่เจ้าของยืนยันเท่านั้น
 
 ### สินค้าพร้อมจำหน่ายหรือยัง
 
@@ -110,8 +109,9 @@ description: ตัวอย่างหน้า Product placeholder สำห�
 
 [PLACEHOLDER — ยังไม่กำหนดเงื่อนไขหรือระยะเวลา ห้ามคาดเดา]
 
-## Marketplace and contact
+## LINE contact and future marketplace
 
-- Marketplace URL: `https://example.com/replace-with-marketplace-product-url` — **PLACEHOLDER ต้องแทนที่**
-- Contact: [Contact KOPE SOLUTION](../contact/index.md)
+- LINE Official Account URL/ID/QR code: **[PLACEHOLDER — ยังไม่ได้รับข้อมูลจริง]**
+- ช่องทางติดต่อ: [Contact KOPE SOLUTION](../contact/index.md#line)
+- Marketplace URL: **[PLACEHOLDER — ช่องทางในอนาคต ยังไม่เปิดใช้งาน]**
 

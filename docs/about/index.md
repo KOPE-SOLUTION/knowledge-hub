@@ -59,7 +59,7 @@ description: รู้จัก KOPE SOLUTION แนวทางการแบ�
 
 ### Contact channels
 
-ช่องทางทั้งหมดยังเป็น placeholder ดูรายการที่ต้องอัปเดตในหน้า [Contact](../contact/index.md)
+Email, Facebook, YouTube และ GitHub ได้รับการยืนยันแล้ว ส่วน LINE Official Account และ Marketplace ยังเป็น placeholder ดูรายละเอียดในหน้า [Contact](../contact/index.md)
 
 ## Brand assets
 

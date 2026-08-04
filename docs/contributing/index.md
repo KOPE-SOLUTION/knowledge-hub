@@ -77,9 +77,9 @@ RSS ปัจจุบันเป็นไฟล์ static เพื่อใ�
 
 แทน `docs/assets/images/profile-placeholder.svg` ด้วยภาพจริงที่เจ้าของอนุญาต แล้วแก้ biography, skills, interests, philosophy, experience summary และ contact channels ใน `docs/about/index.md` ห้ามเพิ่มประวัติ นายจ้าง ลูกค้า การศึกษา หรือ credentials ที่ตรวจไม่ได้
 
-## 15. Update marketplace links { #update-marketplace }
+## 15. Update LINE and marketplace links { #update-marketplace }
 
-แทน `https://example.com/replace-with-marketplace-product-url` ใน Product page และ Contact ด้วย URL ภายนอกจริง ตรวจ product status และคำเตือนว่า ordering/payment เกิดบน Marketplace ไม่ใช่เว็บไซต์นี้
+สำหรับเฟสแรก ให้แทน `https://example.com/replace-with-line-official-account-url` ใน Product page ด้วย LINE Official Account URL จริงที่เจ้าของยืนยัน พร้อมเพิ่ม LINE ID และ QR code ที่ได้รับอนุญาตใน Contact ห้ามใช้บัญชีส่วนตัวโดยไม่ได้ตั้งใจเผยแพร่ ตรวจ product status และข้อความว่าเว็บไซต์ไม่มี cart, checkout, payment gateway หรือระบบเก็บคำสั่งซื้อ เมื่อเพิ่ม Marketplace ในอนาคตจึงค่อยใส่ URL ภายนอกจริงและอัปเดตคำเตือนให้ตรงกับขั้นตอนการสั่งซื้อ
 
 ## 16. Preview locally { #local-preview }
 

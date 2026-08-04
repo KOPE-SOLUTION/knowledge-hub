@@ -91,17 +91,17 @@ extra:
   homepage: https://kope-solution.github.io/knowledge-hub/
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/KOPE-SOLUTION/knowledge-hub
-      name: GitHub repository
+      link: https://github.com/KOPE-SOLUTION
+      name: KOPE SOLUTION on GitHub
     - icon: fontawesome/brands/youtube
-      link: https://kope-solution.github.io/knowledge-hub/contact/#youtube
-      name: YouTube (placeholder — update in mkdocs.yml)
+      link: https://www.youtube.com/@kopesolution
+      name: KOPE SOLUTION on YouTube
     - icon: fontawesome/brands/facebook
-      link: https://kope-solution.github.io/knowledge-hub/contact/#facebook
-      name: Facebook (placeholder — update in mkdocs.yml)
+      link: https://www.facebook.com/people/KOPE-Solution/61558114805915/
+      name: KOPE Solution on Facebook
     - icon: fontawesome/solid/envelope
-      link: https://kope-solution.github.io/knowledge-hub/contact/#email
-      name: Email (placeholder — update in mkdocs.yml)
+      link: mailto:kittisak.hanheam@gmail.com
+      name: Email KOPE SOLUTION
 
 copyright: Copyright &copy; 2026 KOPE SOLUTION · CONTRIBUTE — สร้างประโยชน์ต่อสังคม
 

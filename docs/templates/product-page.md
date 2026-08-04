@@ -63,9 +63,12 @@ hide:
 - Warranty: [PLACEHOLDER — verified terms only]
 - Price: [PLACEHOLDER — verified price only]
 
-## Marketplace and contact
+## LINE contact and future marketplace
 
-<a class="md-button md-button--primary" href="https://example.com/replace-with-marketplace-product-url">Marketplace — PLACEHOLDER ↗</a>
+<a class="md-button md-button--primary" href="https://example.com/replace-with-line-official-account-url">LINE Official Account — PLACEHOLDER ↗</a>
 
-การสั่งซื้อและชำระเงินเกิดบน Marketplace ภายนอก เว็บไซต์นี้ไม่มี cart หรือ checkout
+ในเฟสแรกใช้ LINE Official Account เป็นช่องทางสอบถามและแจ้งความประสงค์สั่งซื้อ เว็บไซต์นี้ไม่มี cart, checkout, payment gateway หรือระบบเก็บคำสั่งซื้อ
+
+- LINE OA URL/ID/QR code: [PLACEHOLDER]
+- Marketplace URL สำหรับเฟสอนาคต: [PLACEHOLDER]
 
