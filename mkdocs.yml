@@ -103,7 +103,7 @@ extra:
       link: mailto:kittisak.hanheam@gmail.com
       name: Email KOPE SOLUTION
 
-copyright: Copyright &copy; 2026 KOPE SOLUTION · CONTRIBUTE — สร้างประโยชน์ต่อสังคม
+copyright: Copyright &copy; 2026 KOPE SOLUTION · CONTRIBUTE — สร้างประโยชน์ต่อสังคม · <a href="https://kope-solution.github.io/knowledge-hub/license/">License</a>
 
 nav:
   - Home: index.md
@@ -208,4 +208,5 @@ nav:
   - คู่มือผู้ดูแล:
       - คู่มือจัดการเนื้อหา: contributing/index.md
       - Templates: templates/index.md
+      - License และสิทธิ์การใช้งาน: license/index.md
 

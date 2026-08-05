@@ -111,6 +111,16 @@ Activate virtual environment ตามระบบจาก README แล้ว�
 - Robots: `docs/robots.txt`
 - RSS: `docs/blog/feed.xml`
 
+## License ของเนื้อหาและไฟล์ใหม่
+
+- Source code, CSS, JavaScript, configuration และ workflow ใช้ MIT License
+- เนื้อหาต้นฉบับ บทความ และสื่อเพื่อการศึกษาของ KOPE SOLUTION ใช้ CC BY-NC-SA 4.0 เว้นแต่ระบุไว้ต่างหาก
+- ชื่อ KOPE SOLUTION, Logo, K-Circuit mark และอัตลักษณ์แบรนด์ไม่อยู่ภายใต้ MIT หรือ CC และสงวนสิทธิ์ตาม `BRAND-ASSETS.md`
+- เนื้อหา รูปภาพ และไฟล์ Download จากบุคคลที่สามต้องมีแหล่งที่มาและ License ของตนเองอย่างชัดเจน
+- อย่าเปลี่ยน License ของไฟล์ที่เผยแพร่แล้วโดยไม่ตรวจผลกระทบ เนื่องจากสิทธิ์ที่มอบให้ผู้ใช้เดิมตาม License อาจยังคงมีผล
+
+ดูขอบเขตทั้งหมดที่ [License และสิทธิ์การใช้งาน](../license/index.md)
+
 ## Review checklist
 
 - [ ] ไม่มี placeholder ที่ถูกเข้าใจว่าเป็นข้อมูลจริง

@@ -26,6 +26,14 @@
 
 .md-header__button.md-logo {
   padding: 0.25rem;
+  border-radius: 0.45rem;
+  background: #ffffff;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.24);
+}
+
+.md-header__button.md-logo:hover,
+.md-header__button.md-logo:focus-visible {
+  background: #f2f6fa;
 }
 
 .md-header__button.md-logo img {
@@ -36,6 +44,22 @@
 
 .md-header .md-header__title {
   margin-left: 0.35rem !important;
+}
+
+.md-header__title--home {
+  color: inherit;
+  text-decoration: none;
+}
+
+.md-header__title--home:hover .md-header__topic:first-child,
+.md-header__title--home:focus-visible .md-header__topic:first-child {
+  color: var(--kope-cyan);
+}
+
+.md-header__title--home:focus-visible {
+  border-radius: 0.2rem;
+  outline: 2px solid var(--kope-cyan);
+  outline-offset: 2px;
 }
 
 .md-grid {

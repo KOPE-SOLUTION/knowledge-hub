@@ -89,5 +89,13 @@ Workflow จะ build ด้วย `mkdocs build --strict` และ deploy เ�
 
 ## License
 
-**[PLACEHOLDER — เจ้าของ repository ต้องเลือกและเพิ่มไฟล์ LICENSE ก่อนอนุญาตให้นำเนื้อหาหรือโค้ดไปใช้ต่อ]**
+Repository นี้แยกสิทธิ์การใช้งานตามประเภทของงาน:
+
+| ขอบเขต | License / เงื่อนไข |
+|---|---|
+| Source code, CSS, JavaScript, configuration และ workflow | [MIT License](LICENSE) |
+| เนื้อหาต้นฉบับ บทความ และสื่อเพื่อการศึกษา | [CC BY-NC-SA 4.0](LICENSE-CONTENT.md) |
+| ชื่อ KOPE SOLUTION, Logo, K-Circuit mark และอัตลักษณ์แบรนด์ | [All Rights Reserved — Brand Assets Policy](BRAND-ASSETS.md) |
+
+ไฟล์จากบุคคลที่สามและ Download ที่ระบุ License แยก ให้ยึดเงื่อนไขของไฟล์นั้น ดูคำอธิบายฉบับเว็บไซต์ที่ [docs/license/index.md](docs/license/index.md)
 
