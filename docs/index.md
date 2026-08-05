@@ -22,7 +22,7 @@ hide:
     </div>
   </div>
   <div class="kope-hero__logo">
-    <img src="assets/images/kope-solution-logo-2027.png" alt="KOPE SOLUTION 2027 logo with a symmetrical red and blue circuit-board microchip mark">
+    <img src="assets/images/kope-solution-logo-2027.png" alt="KOPE SOLUTION 2027 logo with an asymmetric red and blue K-Circuit mark">
   </div>
 </section>
 

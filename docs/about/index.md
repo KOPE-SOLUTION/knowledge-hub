@@ -69,5 +69,5 @@ Email, Facebook, YouTube และ GitHub ได้รับการยืน�
 - Profile photograph: `docs/assets/images/profile-placeholder.svg`
 - Open Graph / social image: `docs/assets/images/social-placeholder.svg`
 
-โลโก้ Version 2027 ใช้สีดำ ขาว แดง และน้ำเงิน โดยออกแบบเส้นวงจรด้านบน–ล่างให้เป็น geometry แบบ mirror และจัดซ้าย–ขวาให้สมดุลด้วย stroke และ node ที่สม่ำเสมอ ไฟล์รุ่นก่อนยังถูกเก็บไว้สำหรับย้อนกลับ ส่วนภาพโปรไฟล์และ social image ยังคงเป็น placeholder
+โลโก้ Version 2027 ใช้สีดำ ขาว แดง และน้ำเงิน ภายใต้แนวคิด K-Circuit โดยผสานตัวอักษร K เข้ากับเส้นวงจรสีแดง–น้ำเงิน ใช้ Via 4 จุดแบบ asymmetric และ negative space เพื่อสร้างภาพจำที่ชัดเจนและสื่อถึงการไหลของข้อมูล ไฟล์รุ่นก่อนยังถูกเก็บไว้สำหรับย้อนกลับ ส่วนภาพโปรไฟล์และ social image ยังคงเป็น placeholder
 
