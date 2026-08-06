@@ -67,11 +67,11 @@ RSS ปัจจุบันเป็นไฟล์ static เพื่อใ�
 
 ## 12. Replace the logo { #replace-logo }
 
-ไฟล์ Version 2027 ที่ใช้งานอยู่คือ `docs/assets/images/kope-solution-logo-2027.png` สำหรับ hero และ `docs/assets/images/kope-solution-mark-2027.png` สำหรับ header/favicon ส่วน `docs/assets/images/kope-solution-logo-2027-light.png` ใช้บนพื้นหลังมืด หากเปลี่ยน artwork ในอนาคตให้แก้ path ใน `mkdocs.yml` และ `docs/index.md` พร้อมตรวจ alt text, transparency และ contrast ทั้ง light/dark mode
+ไฟล์ Version 2027 ที่ใช้งานอยู่คือ `docs/assets/images/kope-solution-logo-2027.png` สำหรับ hero, `docs/assets/images/kope-solution-mark-2027.png` สำหรับ header และ `docs/assets/images/kope-solution-favicon-2027.png` สำหรับ Browser tab ส่วน `docs/assets/images/kope-solution-logo-2027-light.png` ใช้บนพื้นหลังมืด หากเปลี่ยน artwork ในอนาคตให้แก้ path ใน `mkdocs.yml` และ `docs/index.md` พร้อมตรวจ alt text, transparency และ contrast ทั้ง light/dark mode
 
 ## 13. Replace the favicon { #replace-favicon }
 
-เว็บไซต์ใช้ `docs/assets/images/kope-solution-mark-2027.png` เป็น favicon หากต้องการไฟล์เฉพาะขนาดเล็กให้เพิ่ม SVG/PNG ที่อ่านออกชัดเจนและแก้ `theme.favicon` ใน `mkdocs.yml`
+เว็บไซต์ใช้ `docs/assets/images/kope-solution-favicon-2027.png` เป็น favicon โดยมีพื้นขาวมุมโค้งเพื่อรักษาความชัดบน Browser tab ทั้งโหมดมืดและสว่าง หากเปลี่ยนไฟล์ให้แก้ `theme.favicon` ใน `mkdocs.yml` และตรวจที่ขนาด 16, 32 และ 48 px
 
 ## 14. Update the profile { #update-profile }
 

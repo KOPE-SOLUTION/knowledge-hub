@@ -65,7 +65,8 @@ Email, Facebook, YouTube และ GitHub ได้รับการยืน�
 
 - Primary horizontal logo for light backgrounds: `docs/assets/images/kope-solution-logo-2027.png`
 - Light horizontal logo for dark backgrounds: `docs/assets/images/kope-solution-logo-2027-light.png`
-- Square brand mark and favicon: `docs/assets/images/kope-solution-mark-2027.png`
+- Square brand mark: `docs/assets/images/kope-solution-mark-2027.png`
+- Browser favicon with a white rounded background: `docs/assets/images/kope-solution-favicon-2027.png`
 - Profile photograph: `docs/assets/images/profile-placeholder.svg`
 - Open Graph / social image: `docs/assets/images/social-placeholder.svg`
 

@@ -46,8 +46,8 @@ KOPE SOLUTION สร้างพื้นที่กลางสำหรับ
 ## Featured YouTube content
 
 <div class="card-grid card-grid--two">
-  <div class="video-wrapper"><div class="video-placeholder"><strong>VIDEO PLACEHOLDER</strong><br>เพิ่ม Video ID จริงใน `docs/youtube/index.md` ก่อนเปิดใช้งาน embed</div></div>
-  <div class="kope-card"><span class="placeholder-label">กำลังจัดทำ</span><h3>Featured video</h3><p><strong>[ชื่อวิดีโอจริง]</strong></p><p>[สรุปสิ่งที่ผู้ชมจะได้เรียนรู้]</p><p><a href="youtube/">ดูศูนย์รวม YouTube และรายการ Series →</a></p></div>
+  <div class="video-wrapper"><div class="video-placeholder"><strong>วิดีโอแนะนำ · กำลังจัดทำ</strong><br>Arduino Uno Embedded Roadmap<br><small>เพิ่ม Video ID จริงเมื่อเผยแพร่วิดีโอแล้ว</small></div></div>
+  <div class="kope-card"><span class="placeholder-label">แนวคิดวิดีโอเปิดซีรีส์ · กำลังจัดทำ</span><h3>Arduino Uno Embedded Roadmap: จาก GPIO สู่ Embedded Systems ที่เข้าใจจริง</h3><p>แนะนำภาพรวมเส้นทางเรียนรู้จาก GPIO, UART และ Timer ไปจนถึง Interrupt, PWM, ADC, SPI และ I2C พร้อมอธิบายว่าแต่ละหัวข้อเชื่อมต่อกันอย่างไร โดยยังไม่ระบุผลการทดลองหรือข้อมูลที่ยังไม่ได้ทดสอบ</p><p><strong>เหมาะสำหรับ:</strong> ผู้เริ่มต้นที่ต้องการก้าวจากการใช้ Arduino API ไปสู่การเข้าใจ Register และ AVR Bare-Metal C</p><p><a href="youtube/">ดูแผนซีรีส์และศูนย์รวม YouTube →</a></p></div>
 </div>
 
 ## Featured portfolio projects

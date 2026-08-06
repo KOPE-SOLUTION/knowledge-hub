@@ -85,7 +85,7 @@
   position: relative;
   overflow: hidden;
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(18rem, 0.75fr);
+  grid-template-columns: minmax(0, 1.18fr) minmax(20rem, 0.82fr);
   gap: clamp(1.5rem, 3vw, 2.25rem);
   align-items: center;
   margin: 0 0 3rem;
@@ -150,9 +150,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: clamp(0.75rem, 2vw, 1rem);
+  overflow: hidden;
+  padding: clamp(0.35rem, 1vw, 0.55rem);
   border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: 1rem;
+  border-radius: 0.85rem;
   background: rgba(255, 255, 255, 0.97);
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.22);
   text-align: center;
@@ -160,7 +161,8 @@
 
 .kope-hero__logo img {
   display: block;
-  width: min(100%, 32rem);
+  width: 100%;
+  max-width: 32rem;
   height: auto;
   margin: 0;
   filter: drop-shadow(0 0.65rem 1.4rem rgba(0, 0, 0, 0.2));
@@ -417,7 +419,7 @@
   }
 
   .kope-hero__logo {
-    padding: 0.65rem;
+    padding: 0.4rem;
   }
 }
 

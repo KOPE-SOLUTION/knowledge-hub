@@ -17,7 +17,7 @@ theme:
   custom_dir: overrides
   language: th
   logo: assets/images/kope-solution-mark-2027.png
-  favicon: assets/images/kope-solution-mark-2027.png
+  favicon: assets/images/kope-solution-favicon-2027.png
   font: false
   palette:
     - media: "(prefers-color-scheme: dark)"
@@ -50,8 +50,10 @@ theme:
 
 plugins:
   - search:
-      lang: en
-      separator: '[\\s\\-\\.\\_/]+'
+      lang:
+        - en
+        - th
+      separator: '[\s\-._/]+'
   - tags
 
 markdown_extensions:
