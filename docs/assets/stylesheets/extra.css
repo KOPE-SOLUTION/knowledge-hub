@@ -25,7 +25,10 @@
 }
 
 .md-header__button.md-logo {
-  padding: 0.25rem;
+  display: inline-grid;
+  place-items: center;
+  overflow: hidden;
+  padding: 0.16rem;
   border-radius: 0.45rem;
   background: #ffffff;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.24);
@@ -40,6 +43,8 @@
   width: 2rem;
   height: 2rem;
   object-fit: contain;
+  transform: scale(1.16);
+  transform-origin: center;
 }
 
 .md-header .md-header__title {
