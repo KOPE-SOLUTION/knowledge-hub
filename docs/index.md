@@ -46,8 +46,8 @@ KOPE SOLUTION สร้างพื้นที่กลางสำหรับ
 ## Featured YouTube content
 
 <div class="card-grid card-grid--two">
-  <div class="video-wrapper"><div class="video-placeholder"><strong>วิดีโอแนะนำ · กำลังจัดทำ</strong><br>Arduino Uno Embedded Roadmap<br><small>เพิ่ม Video ID จริงเมื่อเผยแพร่วิดีโอแล้ว</small></div></div>
-  <div class="kope-card"><span class="placeholder-label">แนวคิดวิดีโอเปิดซีรีส์ · กำลังจัดทำ</span><h3>Arduino Uno Embedded Roadmap: จาก GPIO สู่ Embedded Systems ที่เข้าใจจริง</h3><p>แนะนำภาพรวมเส้นทางเรียนรู้จาก GPIO, UART และ Timer ไปจนถึง Interrupt, PWM, ADC, SPI และ I2C พร้อมอธิบายว่าแต่ละหัวข้อเชื่อมต่อกันอย่างไร โดยยังไม่ระบุผลการทดลองหรือข้อมูลที่ยังไม่ได้ทดสอบ</p><p><strong>เหมาะสำหรับ:</strong> ผู้เริ่มต้นที่ต้องการก้าวจากการใช้ Arduino API ไปสู่การเข้าใจ Register และ AVR Bare-Metal C</p><p><a href="youtube/">ดูแผนซีรีส์และศูนย์รวม YouTube →</a></p></div>
+  <div class="video-wrapper"><div class="video-placeholder"><strong>วิดีโอแนะนำ · กำลังจัดทำ</strong><br>10 ไมโครคอนโทรลเลอร์สำคัญจาก Z8 ถึง RP2040<br><small>เพิ่ม Video ID จริงเมื่อเผยแพร่วิดีโอแล้ว</small></div></div>
+  <div class="kope-card"><span class="status-badge status--pending">บทความและบทพูดพร้อมแล้ว</span><h3><a href="blog/posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์จาก 8-bit ถึง dual-core</a></h3><p>สำรวจ Z8, 8051, 68HC11, MSP430, PIC, LPC2148, STM32F103, ATmega328P, ESP32 และ RP2040 โดยแยกปีของตระกูลออกจากรุ่นย่อยและอธิบายข้อจำกัดของการเปรียบเทียบ MHz</p><p><strong>ขั้นตอนปัจจุบัน:</strong> ผลิตภาพประกอบและตัดต่อวิดีโอ</p><p><a href="youtube/">ดูแผนวิดีโอและศูนย์รวม YouTube →</a></p></div>
 </div>
 
 ## Featured portfolio projects
@@ -61,8 +61,8 @@ KOPE SOLUTION สร้างพื้นที่กลางสำหรับ
 ## Latest blog articles
 
 <div class="card-grid card-grid--two">
+  <div class="kope-card"><span class="status-badge status--pending">บทความจริง · Draft</span><h3><a href="blog/posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์: 10 MCU สำคัญจาก Z8 ถึง RP2040</a></h3><p>บทความอ้างอิงสำหรับวิดีโอ ครอบคลุมเส้นเวลา สถาปัตยกรรม จุดเปลี่ยน และข้อควรระวังในการเปรียบเทียบ clock</p></div>
   <div class="kope-card"><span class="placeholder-label">ตัวอย่าง · กำลังจัดทำ</span><h3><a href="blog/posts/sample-embedded-article/">วางแผนบทความ Embedded Systems จากโจทย์ถึงการทดสอบ</a></h3><p>ตัวอย่างโครง metadata และ related content สำหรับบทความจริงในอนาคต ไม่มีวันเผยแพร่สมมติ</p></div>
-  <div class="kope-card"><span class="placeholder-label">ตัวอย่าง · กำลังจัดทำ</span><h3><a href="blog/posts/sample-industrial-iot-article/">ออกแบบโครงเรื่อง Industrial IoT Gateway</a></h3><p>ตัวอย่างบทความที่แสดงหมวดหมู่ แท็ก สารบัญ และลิงก์เกี่ยวข้อง</p></div>
 </div>
 
 [ดู Blog, Categories, Tags และ Archive →](blog/index.md)
@@ -90,4 +90,3 @@ KOPE SOLUTION สร้างพื้นที่กลางสำหรับ
   <div class="kope-card"><h3><a href="https://www.facebook.com/people/KOPE-Solution/61558114805915/">Facebook</a></h3><p>KOPE Solution</p></div>
   <div class="kope-card"><h3><a href="contact/#line">LINE</a></h3><p>ช่องทางสอบถามสินค้าเฟสแรก · รอ LINE OA URL</p></div>
 </div>
-

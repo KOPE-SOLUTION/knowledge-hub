@@ -16,3 +16,7 @@ description: พื้นฐาน CPU, memory, clock, GPIO, peripherals, interr
 3. Clock, reset, boot และ power modes
 4. GPIO, timers, ADC, serial interfaces และ interrupts
 5. Build, flash, debug, test และ fault investigation
+
+## Historical context
+
+อ่าน [ประวัติไมโครคอนโทรลเลอร์: 10 MCU สำคัญจาก Z8 ถึง RP2040](../../blog/posts/history-of-iconic-microcontrollers.md) เพื่อดูว่าพื้นฐานเรื่อง CPU, memory, clock, peripherals, power และ ecosystem เปลี่ยนแปลงอย่างไรตั้งแต่ยุค 8-bit ถึง MCU สมัยใหม่

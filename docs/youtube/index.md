@@ -13,19 +13,20 @@ description: ศูนย์รวมวิดีโอ Playlist และ Serie
 </div>
 
 !!! info "Channel URL ยืนยันแล้ว"
-    ช่องหลักคือ `youtube.com/@kopesolution` ส่วน Featured video, Video ID และ Playlist ด้านล่างยังเป็น placeholder จนกว่าเจ้าของจะเลือกเนื้อหาจริง
+    ช่องหลักคือ `youtube.com/@kopesolution` วิดีโอประวัติ MCU ด้านล่างกำลังจัดทำ ส่วน Video ID และ Playlist จะเพิ่มเมื่อมี URL จริงเท่านั้น
 
 ## Featured video
 
 <div class="video-wrapper">
-  <div class="video-placeholder"><strong>VIDEO ID PLACEHOLDER</strong><br>เมื่อมี Video ID จริง ให้ใช้ `https://www.youtube-nocookie.com/embed/VIDEO_ID`</div>
+  <div class="video-placeholder"><strong>วิดีโอแนะนำ · กำลังจัดทำ</strong><br>10 ไมโครคอนโทรลเลอร์สำคัญจาก Z8 ถึง RP2040<br><small>เพิ่ม Video ID จริงหลังเผยแพร่</small></div>
 </div>
 
-**[PLACEHOLDER — ชื่อวิดีโอ]** · [สรุปวิดีโอและลิงก์ไปบทความ/โครงการที่เกี่ยวข้อง]
+**10 ไมโครคอนโทรลเลอร์สำคัญจาก Z8 ถึง RP2040** · ย้อนดูวิวัฒนาการจาก MCU 8-bit ไปสู่ Arm, Arduino, ระบบไร้สายและ dual-core พร้อมอ่าน [บทความและแหล่งอ้างอิง](../blog/posts/history-of-iconic-microcontrollers.md)
 
 ## Latest videos
 
 <div class="card-grid">
+  <div class="kope-card"><span class="status-badge status--pending">กำลังจัดทำ</span><h3><a href="../blog/posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์</a></h3><p>บทพูดและบทความพร้อมแล้ว · รอผลิตภาพประกอบและวิดีโอ</p></div>
   <div class="kope-card"><span class="placeholder-label">Video placeholder</span><h3>[ชื่อวิดีโอ]</h3><p>[Video ID] · [วันที่เผยแพร่จริง]</p></div>
   <div class="kope-card"><span class="placeholder-label">Video placeholder</span><h3>[ชื่อวิดีโอ]</h3><p>[Video ID] · [วันที่เผยแพร่จริง]</p></div>
   <div class="kope-card"><span class="placeholder-label">Video placeholder</span><h3>[ชื่อวิดีโอ]</h3><p>[Video ID] · [วันที่เผยแพร่จริง]</p></div>
@@ -40,6 +41,7 @@ description: ศูนย์รวมวิดีโอ Playlist และ Serie
 ## YouTube series
 
 <div class="card-grid">
+  <div class="kope-card"><h3>ประวัติ Embedded Systems</h3><p><a href="../blog/posts/history-of-iconic-microcontrollers/">เริ่มจากบทความประวัติ MCU →</a></p></div>
   <div class="kope-card"><h3>Arduino Uno Embedded Roadmap</h3><p>[Playlist URL placeholder]</p></div>
   <div class="kope-card"><h3>AVR Bare-Metal C</h3><p>[Playlist URL placeholder]</p></div>
   <div class="kope-card"><h3>ESP32 and ESP-IDF</h3><p>[Playlist URL placeholder]</p></div>
@@ -54,4 +56,3 @@ description: ศูนย์รวมวิดีโอ Playlist และ Serie
 </div>
 
 [วิธีเพิ่มวิดีโอและ Playlist →](adding-content.md)
-

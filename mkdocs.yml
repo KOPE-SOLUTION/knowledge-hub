@@ -181,6 +181,7 @@ nav:
           - Edge AI: knowledge/software-data-ai/edge-ai.md
   - Blog:
       - บทความทั้งหมด: blog/index.md
+      - ประวัติไมโครคอนโทรลเลอร์ — Draft: blog/posts/history-of-iconic-microcontrollers.md
       - บทความตัวอย่าง — Embedded Systems: blog/posts/sample-embedded-article.md
       - บทความตัวอย่าง — Industrial IoT: blog/posts/sample-industrial-iot-article.md
       - หมวดหมู่: blog/categories.md
@@ -211,4 +212,3 @@ nav:
       - คู่มือจัดการเนื้อหา: contributing/index.md
       - Templates: templates/index.md
       - License และสิทธิ์การใช้งาน: license/index.md
-
