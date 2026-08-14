@@ -46,8 +46,8 @@ KOPE SOLUTION สร้างพื้นที่กลางสำหรับ
 ## Featured YouTube content
 
 <div class="card-grid card-grid--two">
-  <div class="video-wrapper"><div class="video-placeholder"><strong>วิดีโอแนะนำ · กำลังจัดทำ</strong><br>10 ไมโครคอนโทรลเลอร์สำคัญจาก Z8 ถึง RP2040<br><small>เพิ่ม Video ID จริงเมื่อเผยแพร่วิดีโอแล้ว</small></div></div>
-  <div class="kope-card"><span class="status-badge status--pending">บทความและบทพูดพร้อมแล้ว</span><h3><a href="blog/posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์จาก 8-bit ถึง dual-core</a></h3><p>สำรวจ Z8, 8051, 68HC11, MSP430, PIC, LPC2148, STM32F103, ATmega328P, ESP32 และ RP2040 โดยแยกปีของตระกูลออกจากรุ่นย่อยและอธิบายข้อจำกัดของการเปรียบเทียบ MHz</p><p><strong>ขั้นตอนปัจจุบัน:</strong> ผลิตภาพประกอบและตัดต่อวิดีโอ</p><p><a href="youtube/">ดูแผนวิดีโอและศูนย์รวม YouTube →</a></p></div>
+  <div class="video-wrapper"><div class="video-placeholder"><strong>วิดีโอแนะนำ · กำลังจัดทำ</strong><br>16 ตระกูล MCU สำคัญ จากยุคแรกสู่ Wireless SoC<br><small>เพิ่ม Video ID จริงเมื่อเผยแพร่วิดีโอแล้ว</small></div></div>
+  <div class="kope-card"><span class="status-badge status--pending">บทความและบทพูดพร้อมแล้ว</span><h3><a href="blog/posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์จากยุคแรกสู่ Wireless SoC</a></h3><p>สำรวจ TI MCU ยุคแรก, MCS-48, Z8, 8051, 68HC11, MSP430, PIC, AVR, LPC2148, STM32F103, ATmega328P, RL78, Nordic nRF, ESP32, RP2040 และ Nations N32 พร้อมอธิบายข้อจำกัดของการเปรียบเทียบ MHz</p><p><strong>ขั้นตอนปัจจุบัน:</strong> ผลิตภาพประกอบและตัดต่อวิดีโอ</p><p><a href="youtube/">ดูแผนวิดีโอและศูนย์รวม YouTube →</a></p></div>
 </div>
 
 ## Featured portfolio projects
@@ -61,7 +61,7 @@ KOPE SOLUTION สร้างพื้นที่กลางสำหรับ
 ## Latest blog articles
 
 <div class="card-grid card-grid--two">
-  <div class="kope-card"><span class="status-badge status--pending">บทความจริง · Draft</span><h3><a href="blog/posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์: 10 MCU สำคัญจาก Z8 ถึง RP2040</a></h3><p>บทความอ้างอิงสำหรับวิดีโอ ครอบคลุมเส้นเวลา สถาปัตยกรรม จุดเปลี่ยน และข้อควรระวังในการเปรียบเทียบ clock</p></div>
+  <div class="kope-card"><span class="status-badge status--pending">บทความจริง · Draft</span><h3><a href="blog/posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์: 16 ตระกูลสำคัญจากยุคแรกสู่ Wireless SoC</a></h3><p>บทความอ้างอิงสำหรับวิดีโอ ครอบคลุมเส้นเวลา สถาปัตยกรรม จุดเปลี่ยน และข้อควรระวังในการเปรียบเทียบ clock</p></div>
   <div class="kope-card"><span class="placeholder-label">ตัวอย่าง · กำลังจัดทำ</span><h3><a href="blog/posts/sample-embedded-article/">วางแผนบทความ Embedded Systems จากโจทย์ถึงการทดสอบ</a></h3><p>ตัวอย่างโครง metadata และ related content สำหรับบทความจริงในอนาคต ไม่มีวันเผยแพร่สมมติ</p></div>
 </div>
 

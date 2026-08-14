@@ -19,4 +19,4 @@ description: พื้นฐาน CPU, memory, clock, GPIO, peripherals, interr
 
 ## Historical context
 
-อ่าน [ประวัติไมโครคอนโทรลเลอร์: 10 MCU สำคัญจาก Z8 ถึง RP2040](../../blog/posts/history-of-iconic-microcontrollers.md) เพื่อดูว่าพื้นฐานเรื่อง CPU, memory, clock, peripherals, power และ ecosystem เปลี่ยนแปลงอย่างไรตั้งแต่ยุค 8-bit ถึง MCU สมัยใหม่
+อ่าน [ประวัติไมโครคอนโทรลเลอร์: 16 ตระกูลสำคัญจากยุคแรกสู่ Wireless SoC](../../blog/posts/history-of-iconic-microcontrollers.md) เพื่อดูว่าพื้นฐานเรื่อง CPU, memory, clock, peripherals, power, wireless และ ecosystem เปลี่ยนแปลงอย่างไรตั้งแต่ MCU ชิปเดียวยุคแรกถึงอุปกรณ์สมัยใหม่

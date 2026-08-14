@@ -18,10 +18,10 @@ description: ศูนย์รวมวิดีโอ Playlist และ Serie
 ## Featured video
 
 <div class="video-wrapper">
-  <div class="video-placeholder"><strong>วิดีโอแนะนำ · กำลังจัดทำ</strong><br>10 ไมโครคอนโทรลเลอร์สำคัญจาก Z8 ถึง RP2040<br><small>เพิ่ม Video ID จริงหลังเผยแพร่</small></div>
+  <div class="video-placeholder"><strong>วิดีโอแนะนำ · กำลังจัดทำ</strong><br>16 ตระกูล MCU สำคัญ จากยุคแรกสู่ Wireless SoC<br><small>เพิ่ม Video ID จริงหลังเผยแพร่</small></div>
 </div>
 
-**10 ไมโครคอนโทรลเลอร์สำคัญจาก Z8 ถึง RP2040** · ย้อนดูวิวัฒนาการจาก MCU 8-bit ไปสู่ Arm, Arduino, ระบบไร้สายและ dual-core พร้อมอ่าน [บทความและแหล่งอ้างอิง](../blog/posts/history-of-iconic-microcontrollers.md)
+**16 ตระกูล MCU สำคัญ จากยุคแรกสู่ Wireless SoC** · ย้อนดูวิวัฒนาการจาก MCU ชิปเดียวยุคแรกไปสู่ 8-bit, Arm, Arduino, Bluetooth LE, Wi-Fi, dual-core และผู้ผลิตรุ่นใหม่ พร้อมอ่าน [บทความและแหล่งอ้างอิง](../blog/posts/history-of-iconic-microcontrollers.md)
 
 ## Latest videos
 

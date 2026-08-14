@@ -10,7 +10,7 @@ description: บทความเชิงเทคนิค บันทึก
 ## Latest articles
 
 <div class="card-grid card-grid--two">
-  <div class="kope-card"><span class="status-badge status--pending">บทความจริง · Draft</span><h3><a href="posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์: 10 MCU สำคัญจาก Z8 ถึง RP2040</a></h3><p>Category: Embedded Systems · กำลังจัดทำวิดีโอและภาพประกอบก่อนเผยแพร่</p></div>
+  <div class="kope-card"><span class="status-badge status--pending">บทความจริง · Draft</span><h3><a href="posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์: 16 ตระกูลสำคัญจากยุคแรกสู่ Wireless SoC</a></h3><p>Category: Embedded Systems · กำลังจัดทำวิดีโอและภาพประกอบก่อนเผยแพร่</p></div>
   <div class="kope-card"><span class="placeholder-label">ตัวอย่าง · กำลังจัดทำ</span><h3><a href="posts/sample-embedded-article/">วางแผนบทความ Embedded Systems จากโจทย์ถึงการทดสอบ</a></h3><p>Category: Embedded Systems · วันที่เผยแพร่: ยังไม่เผยแพร่</p></div>
   <div class="kope-card"><span class="placeholder-label">ตัวอย่าง · กำลังจัดทำ</span><h3><a href="posts/sample-industrial-iot-article/">ออกแบบโครงเรื่อง Industrial IoT Gateway</a></h3><p>Category: Industrial IoT · วันที่เผยแพร่: ยังไม่เผยแพร่</p></div>
 </div>
