@@ -13,7 +13,7 @@ tags:
   - Arduino
   - ESP32
 summary: "ย้อนดูจุดเปลี่ยนของไมโครคอนโทรลเลอร์จากยุค 8-bit ไปสู่ ARM, Arduino, IoT และชิป dual-core พร้อมอธิบายว่าทำไม MHz เพียงอย่างเดียวใช้เปรียบเทียบประสิทธิภาพไม่ได้"
-cover_image: "../../assets/images/blog/history-of-iconic-microcontrollers/mcu-evolution-cover.png"
+cover_image: "../../assets/images/blog/history-of-iconic-microcontrollers/mcu-evolution-cover-branded.jpg"
 related_project: "[ยังไม่มีโครงการที่เกี่ยวข้องโดยตรง]"
 related_youtube: "[กำลังจัดทำ — ยังไม่มี Video ID]"
 related_github: "https://github.com/KOPE-SOLUTION/knowledge-hub"
@@ -31,7 +31,7 @@ hide:
 
 <span class="status-badge status--pending">DRAFT · กำลังจัดทำวิดีโอและตรวจทานก่อนเผยแพร่</span>
 
-![ภาพเชิงแนวคิดแสดงวิวัฒนาการของแพ็กเกจไมโครคอนโทรลเลอร์จาก DIP ไปสู่ชิปและโมดูลสมัยใหม่](../../assets/images/blog/history-of-iconic-microcontrollers/mcu-evolution-cover.png)
+![ภาพปกประวัติไมโครคอนโทรลเลอร์ 10 MCU สำคัญจาก Z8 ถึง RP2040 พร้อมโลโก้ KOPE SOLUTION](../../assets/images/blog/history-of-iconic-microcontrollers/mcu-evolution-cover-branded.jpg)
 
 *ภาพประกอบเชิงแนวคิดสร้างขึ้นสำหรับ KOPE SOLUTION ไม่ใช่ภาพผลิตภัณฑ์หรือสัดส่วนอ้างอิงทางวิศวกรรม*
 
@@ -212,4 +212,3 @@ RP2040 แสดงแนวทางของ MCU สมัยใหม่ท�
 - [ ] สร้างภาพประกอบของแต่ละยุค
 - [ ] ผลิตและเผยแพร่วิดีโอ YouTube
 - [ ] เพิ่ม Video ID, publication date และ RSS item หลังเผยแพร่จริง
-
