@@ -43,11 +43,11 @@ KOPE SOLUTION สร้างพื้นที่กลางสำหรับ
   <div class="kope-card"><span class="kope-card__label">Learning Path</span><h3><a href="knowledge/embedded/arduino-uno/">Arduino Uno Roadmap</a></h3><p>เส้นทางจาก GPIO ไปสู่ UART, Timer, Interrupt, PWM, ADC, SPI และ I2C</p></div>
 </div>
 
-## Featured YouTube content
+## Featured content
 
 <div class="card-grid card-grid--two">
-  <div class="video-wrapper"><div class="video-placeholder"><strong>วิดีโอแนะนำ · กำลังจัดทำ</strong><br>16 ตระกูล MCU สำคัญ จากยุคแรกสู่ Wireless SoC<br><small>เพิ่ม Video ID จริงเมื่อเผยแพร่วิดีโอแล้ว</small></div></div>
-  <div class="kope-card"><span class="status-badge status--pending">บทความและบทพูดพร้อมแล้ว</span><h3><a href="blog/posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์จากยุคแรกสู่ Wireless SoC</a></h3><p>สำรวจ TI MCU ยุคแรก, MCS-48, Z8, 8051, 68HC11, MSP430, PIC, AVR, LPC2148, STM32F103, ATmega328P, RL78, Nordic nRF, ESP32, RP2040 และ Nations N32 พร้อมอธิบายข้อจำกัดของการเปรียบเทียบ MHz</p><p><strong>ขั้นตอนปัจจุบัน:</strong> ผลิตภาพประกอบและตัดต่อวิดีโอ</p><p><a href="youtube/">ดูแผนวิดีโอและศูนย์รวม YouTube →</a></p></div>
+  <div class="kope-card"><span class="kope-card__label">บทความแนะนำ</span><h3><a href="blog/posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์จากยุคแรกสู่ Wireless SoC</a></h3><p>สำรวจ TI MCU ยุคแรก, MCS-48, Z8, 8051, 68HC11, MSP430, PIC, AVR, LPC2148, STM32F103, ATmega328P, RL78, Nordic nRF, ESP8266, ESP32, RP2040 และ Nations N32 พร้อมอธิบายข้อจำกัดของการเปรียบเทียบ MHz</p><p><a href="blog/posts/history-of-iconic-microcontrollers/">อ่านบทความและดูแหล่งอ้างอิง →</a></p></div>
+  <div class="kope-card"><span class="kope-card__label">YouTube</span><h3><a href="https://www.youtube.com/@kopesolution">KOPE SOLUTION on YouTube</a></h3><p>วิดีโอสอน การทดลอง บันทึกการพัฒนา และ Project Demonstrations ด้าน Embedded Systems, IoT, Software, Data และ AI</p><p><a href="youtube/">ดูศูนย์รวมเนื้อหา YouTube →</a></p></div>
 </div>
 
 ## Featured portfolio projects
@@ -60,9 +60,8 @@ KOPE SOLUTION สร้างพื้นที่กลางสำหรับ
 
 ## Latest blog articles
 
-<div class="card-grid card-grid--two">
-  <div class="kope-card"><span class="status-badge status--pending">บทความจริง · Draft</span><h3><a href="blog/posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์: 16 ตระกูลสำคัญจากยุคแรกสู่ Wireless SoC</a></h3><p>บทความอ้างอิงสำหรับวิดีโอ ครอบคลุมเส้นเวลา สถาปัตยกรรม จุดเปลี่ยน และข้อควรระวังในการเปรียบเทียบ clock</p></div>
-  <div class="kope-card"><span class="placeholder-label">ตัวอย่าง · กำลังจัดทำ</span><h3><a href="blog/posts/sample-embedded-article/">วางแผนบทความ Embedded Systems จากโจทย์ถึงการทดสอบ</a></h3><p>ตัวอย่างโครง metadata และ related content สำหรับบทความจริงในอนาคต ไม่มีวันเผยแพร่สมมติ</p></div>
+<div class="card-grid">
+  <div class="kope-card"><span class="kope-card__label">เผยแพร่ 14 สิงหาคม 2026</span><h3><a href="blog/posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์: 16 ตระกูลสำคัญจากยุคแรกสู่ Wireless SoC</a></h3><p>บทความอ้างอิงสำหรับวิดีโอ ครอบคลุมเส้นเวลา สถาปัตยกรรม จุดเปลี่ยน และข้อควรระวังในการเปรียบเทียบ clock</p></div>
 </div>
 
 [ดู Blog, Categories, Tags และ Archive →](blog/index.md)

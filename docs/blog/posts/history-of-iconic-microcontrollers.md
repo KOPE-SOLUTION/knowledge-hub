@@ -1,7 +1,8 @@
 ---
 title: "ประวัติไมโครคอนโทรลเลอร์: 16 ตระกูลสำคัญจากยุคแรกสู่ Wireless SoC"
 slug: "history-of-iconic-microcontrollers"
-status: draft
+status: published
+publication_date: "2026-08-14"
 updated_date: "2026-08-14"
 author: โก๊ป
 category: "Embedded Systems"
@@ -32,7 +33,7 @@ hide:
 
 ไมโครคอนโทรลเลอร์หรือ MCU คือคอมพิวเตอร์ขนาดเล็กที่รวม CPU, memory และวงจรเชื่อมต่อฮาร์ดแวร์ไว้ในชิปเดียว เราพบมันได้ในรถยนต์ เครื่องใช้ไฟฟ้า ระบบโรงงาน เครื่องมือวัด อุปกรณ์ทางการแพทย์ ของเล่น และอุปกรณ์ IoT แม้ผู้ใช้งานปลายทางแทบไม่เคยเห็นตัวชิปก็ตาม
 
-บทความนี้เลือก MCU 16 ตระกูลหรือรุ่นที่ช่วยอธิบายจุดเปลี่ยนสำคัญของวงการ ตั้งแต่การรวม CPU, memory และ I/O เข้าสู่ชิปเดียว การใช้ register file และ Flash ที่เขียนซ้ำได้ การเปลี่ยนผ่านสู่ 32-bit ไปจนถึง Bluetooth LE, Wi-Fi, dual-core และการเติบโตของผู้ผลิตจากหลายภูมิภาค
+บทความนี้เลือก MCU 16 ตระกูลหรือรุ่นที่ช่วยอธิบายจุดเปลี่ยนสำคัญของวงการ พร้อมเพิ่ม ESP8266 เป็นช่วงเชื่อมก่อน ESP32 ตั้งแต่การรวม CPU, memory และ I/O เข้าสู่ชิปเดียว การใช้ register file และ Flash ที่เขียนซ้ำได้ การเปลี่ยนผ่านสู่ 32-bit ไปจนถึง Bluetooth LE, Wi-Fi, dual-core และการเติบโตของผู้ผลิตจากหลายภูมิภาค
 
 หมายเลข 1–16 เรียงตามช่วงเวลา ไม่ใช่อันดับความดีที่สุดหรือยอดขาย แต่ละรุ่นทำหน้าที่เป็นตัวแทนของจุดเปลี่ยนสำคัญในวิวัฒนาการ MCU
 
@@ -53,9 +54,10 @@ hide:
 | 2009–2010 | ATmega328/328P บน Arduino | 8-bit AVR | เครื่องมือ ซอฟต์แวร์ และชุมชน Maker |
 | 2010–2011 | Renesas RL78 | 16-bit CISC | รวมสาย 78K และ R8C พร้อมเน้นพลังงานต่ำ |
 | 2012–2015 | Nordic nRF51 / nRF52 | Arm Cortex-M0/M4F | Bluetooth LE แบบ wireless SoC |
+| 2013–2014 | Espressif ESP8266 (ช่วงเชื่อม) | 32-bit Tensilica L106 | Wi-Fi SoC ราคาประหยัดที่เชื่อมยุค MCU เข้ากับ IoT โดยไม่นับเป็นหนึ่งใน 16 บทหลัก |
 | 2016 | Espressif ESP32 | 32-bit Xtensa LX6 | Wi-Fi และ Bluetooth ใน MCU ราคาประหยัด |
 | 2021 | Raspberry Pi RP2040 | dual-core Arm Cortex-M0+ | dual-core, SRAM ขนาดใหญ่ และ PIO |
-| 2022 | Nations N32G430 / N32 family | 32-bit Arm Cortex-M4F | MCU สมรรถนะสูงจากผู้ผลิตจีนและตัวเลือก supply chain ใหม่ |
+| 2022 | Nations N32G430 / N32 family | 32-bit Arm Cortex-M4F | Cortex-M4F 128 MHz พร้อม FPU, DSP และ peripheral สำหรับงานควบคุม |
 
 ปีในตารางมีทั้ง “ปีเปิดตัวตระกูล” และ “ช่วงที่รุ่นตัวอย่างได้รับความนิยม” โดยรายละเอียดของแต่ละหัวข้อจะระบุบริบทของปีนั้นเพิ่มเติม
 
@@ -237,7 +239,7 @@ ESP32 จึงเป็นตัวแทนของการเปลี่�
 
 Raspberry Pi เปิดตัว RP2040 พร้อม Raspberry Pi Pico ในปี 2021 ตัวชิปมี Arm Cortex-M0+ สองแกนที่ความถี่สูงสุด 133 MHz และ SRAM 264 KB โดยไม่มี Flash ภายในชิป บอร์ดจึงใช้หน่วยความจำ Flash ภายนอก
 
-![ภาพรวม Raspberry Pi RP2040 แสดงบอร์ดควบคุม LED และ Servo ควบคู่กับ CPU สองแกน SRAM และ PIO สี่ชุด](../../assets/images/blog/history-of-iconic-microcontrollers/15-raspberry-pi-rp2040-overview.jpg)
+![ภาพรวม Raspberry Pi RP2040 แสดงบอร์ดควบคุม LED และ Servo ควบคู่กับ CPU สองแกน SRAM และ PIO สองบล็อก รวมแปด state machines](../../assets/images/blog/history-of-iconic-microcontrollers/15-raspberry-pi-rp2040-overview.jpg)
 
 
 จุดเด่นคือ Programmable I/O หรือ PIO ซึ่งประกอบด้วย state machines ที่โปรแกรมได้สำหรับรับและสร้างสัญญาณดิจิทัลอย่างแม่นยำ PIO ช่วยทำโปรโตคอลหรือ waveform เฉพาะงานโดยไม่บังคับให้ CPU จัดการทุกขอบสัญญาณ
@@ -246,7 +248,7 @@ RP2040 แสดงแนวทางของ MCU สมัยใหม่ท�
 
 ## 16. Nations N32 — ผู้ผลิตใหม่และตัวเลือก Supply Chain
 
-Nations Technologies มีตระกูล N32 ที่ใช้แกน Arm Cortex-M หลายระดับ ครอบคลุมงานควบคุมทั่วไป มอเตอร์ อินเทอร์เฟซแบบ mixed-signal และงานที่ต้องการคุณสมบัติด้านความปลอดภัย รุ่น N32G430 ซึ่งประกาศในปี 2022 ใช้ Cortex-M4F และทำงานได้สูงสุด 128 MHz เป็นตัวอย่างของ MCU สมรรถนะสูงในกลุ่มราคาที่แข่งขันได้
+Nations Technologies มีตระกูล N32 ที่ใช้แกน Arm Cortex-M หลายระดับ ครอบคลุมงานควบคุมทั่วไป มอเตอร์ อินเทอร์เฟซแบบ mixed-signal และงานที่ต้องการคุณสมบัติด้านความปลอดภัย รุ่น N32G430 ซึ่งประกาศในปี 2022 ใช้ Cortex-M4F ทำงานได้สูงสุด 128 MHz และรวม FPU, DSP กับ peripheral สำหรับงานควบคุม
 
 ![ภาพรวม Nations N32 แสดงระบบควบคุมมอเตอร์อุตสาหกรรม ควบคู่กับ Cortex-M4F FPU Analog และ Security](../../assets/images/blog/history-of-iconic-microcontrollers/16-nations-n32-overview.jpg)
 

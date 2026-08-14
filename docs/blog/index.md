@@ -5,25 +5,20 @@ description: บทความเชิงเทคนิค บันทึก
 
 # Blog
 
-พื้นที่สำหรับบทความที่เล่าเหตุผล กระบวนการพัฒนา สิ่งที่ทดลอง และบทเรียนที่นำไปต่อยอดได้ ขณะนี้มีบทความประวัติไมโครคอนโทรลเลอร์หนึ่งเรื่องอยู่ในสถานะ draft และมีบทความตัวอย่างสำหรับแสดงโครงสร้างการเขียน
+พื้นที่สำหรับบทความที่เล่าเหตุผล กระบวนการพัฒนา สิ่งที่ทดลอง และบทเรียนที่นำไปต่อยอดได้ โดยเชื่อมเนื้อหาเข้ากับ Knowledge Hub, วิดีโอ และแหล่งอ้างอิงที่ตรวจสอบต่อได้
 
 ## Latest articles
 
-<div class="card-grid card-grid--two">
-  <div class="kope-card"><span class="status-badge status--pending">บทความจริง · Draft</span><h3><a href="posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์: 16 ตระกูลสำคัญจากยุคแรกสู่ Wireless SoC</a></h3><p>Category: Embedded Systems · กำลังจัดทำวิดีโอและภาพประกอบก่อนเผยแพร่</p></div>
-  <div class="kope-card"><span class="placeholder-label">ตัวอย่าง · กำลังจัดทำ</span><h3><a href="posts/sample-embedded-article/">วางแผนบทความ Embedded Systems จากโจทย์ถึงการทดสอบ</a></h3><p>Category: Embedded Systems · วันที่เผยแพร่: ยังไม่เผยแพร่</p></div>
-  <div class="kope-card"><span class="placeholder-label">ตัวอย่าง · กำลังจัดทำ</span><h3><a href="posts/sample-industrial-iot-article/">ออกแบบโครงเรื่อง Industrial IoT Gateway</a></h3><p>Category: Industrial IoT · วันที่เผยแพร่: ยังไม่เผยแพร่</p></div>
+<div class="card-grid">
+  <div class="kope-card"><span class="kope-card__label">เผยแพร่ 14 สิงหาคม 2026</span><h3><a href="posts/history-of-iconic-microcontrollers/">ประวัติไมโครคอนโทรลเลอร์: 16 ตระกูลสำคัญจากยุคแรกสู่ Wireless SoC</a></h3><p>Category: Embedded Systems · เส้นเวลา สถาปัตยกรรม จุดเปลี่ยน และข้อควรระวังในการเปรียบเทียบ clock</p></div>
 </div>
-
-!!! warning "ยังไม่มีบทความ Production"
-    บทความประวัติ MCU มีเนื้อหาและแหล่งอ้างอิงจริง แต่ยังเป็น draft จนกว่าจะตรวจทานและเผยแพร่วิดีโอ ส่วนบทความตัวอย่างอีกสองหน้าใช้ทดสอบ layout และ metadata เท่านั้น
 
 ## Browse the blog
 
 - [Categories](categories.md) — เลือกตามหัวข้อหลัก
 - [Tags](tags.md) — ค้นหาหัวข้อย่อยที่เชื่อมหลายหมวด
-- [Archive](archive.md) — ดูตามปีและเดือนเมื่อมีบทความเผยแพร่
-- [RSS feed](feed.xml) — feed พร้อมใช้งานและจะยังไม่มีรายการจนกว่าจะมีบทความจริง
+- [Archive](archive.md) — ดูบทความตามปีและเดือนที่เผยแพร่
+- [RSS feed](feed.xml) — ติดตามบทความใหม่จาก KOPE SOLUTION
 - [Blog article template](../templates/blog-article.md) — โครง metadata และ related content
 
 ## Editorial categories

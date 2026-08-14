@@ -3,7 +3,16 @@
   <channel>
     <title>KOPE SOLUTION Blog</title>
     <link>https://kope-solution.github.io/knowledge-hub/blog/</link>
-    <description>บทความจาก KOPE SOLUTION — feed นี้ยังไม่มีรายการที่เผยแพร่</description>
+    <description>บทความเชิงเทคนิคจาก KOPE SOLUTION</description>
     <language>th</language>
+    <lastBuildDate>Fri, 14 Aug 2026 00:00:00 +0700</lastBuildDate>
+    <item>
+      <title>ประวัติไมโครคอนโทรลเลอร์: 16 ตระกูลสำคัญจากยุคแรกสู่ Wireless SoC</title>
+      <link>https://kope-solution.github.io/knowledge-hub/blog/posts/history-of-iconic-microcontrollers/</link>
+      <guid isPermaLink="true">https://kope-solution.github.io/knowledge-hub/blog/posts/history-of-iconic-microcontrollers/</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0700</pubDate>
+      <category>Embedded Systems</category>
+      <description>ย้อนดู 16 ตระกูลหลัก พร้อม ESP8266 และเส้นทางขนานจากผู้ผลิตอื่น ตั้งแต่ MCU ชิปเดียวยุคแรกไปสู่ Arm, Wireless SoC, dual-core และ RISC-V</description>
+    </item>
   </channel>
 </rss>
