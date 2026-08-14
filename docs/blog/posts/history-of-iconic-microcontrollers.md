@@ -11,8 +11,10 @@ tags:
   - Embedded Systems
   - MCU History
   - Arduino
+  - ESP8266
   - ESP32
-summary: "ย้อนดู 16 ตระกูลสำคัญ ตั้งแต่ MCU ชิปเดียวยุคแรก, Z8, 8051 และ AVR ไปสู่ Arm, Arduino, Bluetooth LE, Wi-Fi, dual-core และผู้ผลิตรุ่นใหม่ พร้อมอธิบายว่าทำไม MHz เพียงอย่างเดียวใช้เปรียบเทียบประสิทธิภาพไม่ได้"
+  - RISC-V
+summary: "ย้อนดู 16 ตระกูลหลัก พร้อมช่วงเชื่อม ESP8266 และเส้นทางขนานจากผู้ผลิตอื่น ตั้งแต่ MCU ชิปเดียวยุคแรกไปสู่ Arm, Wireless SoC, dual-core, RISC-V และ MCU สำหรับงานความปลอดภัยสูง"
 cover_image: "../../assets/images/blog/history-of-iconic-microcontrollers/mcu-evolution-cover-branded.jpg"
 related_project: "[ยังไม่มีโครงการที่เกี่ยวข้องโดยตรง]"
 related_youtube: "[กำลังจัดทำ — ยังไม่มี Video ID]"
@@ -21,7 +23,7 @@ related_articles:
   - "../../knowledge/embedded/microcontroller-fundamentals.md"
   - "../../knowledge/embedded/arduino-uno/index.md"
   - "../../knowledge/embedded/esp32.md"
-description: "ประวัติและวิวัฒนาการของไมโครคอนโทรลเลอร์ 16 ตระกูลสำคัญ ตั้งแต่ TI TMS1000, Intel MCS-48, Zilog Z8 และ 8051 ไปจนถึง AVR, STM32, Nordic nRF, ESP32, RP2040 และ Nations N32"
+description: "ประวัติและวิวัฒนาการของไมโครคอนโทรลเลอร์ 16 ตระกูลหลัก พร้อม ESP8266, PSoC, RX, Kinetis, AURIX, EFM32, SimpleLink, GD32, CH32 และเส้นทาง RISC-V"
 og_type: article
 hide:
   - navigation
@@ -237,9 +239,20 @@ Nordic Semiconductor เปิดตัว nRF51 แบบ single-chip Bluetooth
 
 nRF51/nRF52 เป็นตัวแทนของเส้นทาง wireless SoC ที่เน้นแบตเตอรี่และระยะเวลาการทำงาน ต่างจาก ESP32 ซึ่งโดดเด่นด้าน Wi-Fi, Bluetooth และกำลังประมวลผลในต้นทุนที่เข้าถึงง่าย
 
+### ช่วงเชื่อมที่ขาดไม่ได้: ESP8266 (2013–2014)
+
+ก่อนถึง ESP32 ต้องกล่าวถึง ESP8266 เพราะชิปนี้เป็นจุดเปลี่ยนที่ทำให้ Wi-Fi สำหรับงาน IoT มีต้นทุนและจำนวนชิ้นส่วนลดลงอย่างมาก เอกสารทางการของ Espressif มีสองหมุดเวลาที่ควรอ่านร่วมกัน: บริษัทประกาศการผลิต ESP8266 ปริมาณมากในเดือนธันวาคม 2013 ขณะที่หน้า milestones ระบุเดือนพฤษภาคม 2014 เป็นช่วงเปิดตัว ESP8266EX ในฐานะ IoT SoC ตัวแรกของบริษัท ความต่างนี้สะท้อนว่าคำว่า “ปีเปิดตัว” อาจหมายถึงการประกาศผลิต การวางตลาด หรือการทำตลาดในวงกว้าง
+
+ESP8266 รวม 802.11 b/g/n MAC/PHY, วิทยุ 2.4 GHz, power amplifier, low-noise amplifier, antenna switch, balun และวงจรจัดการพลังงานไว้ใน SoC เดียว จึงใช้ชิ้นส่วนภายนอกน้อยกว่าวิธีประกอบระบบ Wi-Fi แบบเดิม นักพัฒนาสามารถใช้มันเป็นโมดูล Wi-Fi ที่ควบคุมด้วย AT commands หรือรันแอปพลิเคชันบนตัวชิปเองได้
+
+โมดูลราคาประหยัด ชุมชน NodeMCU และเครื่องมือที่เข้ากับแนวทาง Arduino ทำให้ ESP8266 เข้าถึงนักเรียน Maker และผู้พัฒนาผลิตภัณฑ์ขนาดเล็กได้รวดเร็ว ถ้า ESP32 เป็นช่วงที่ “Wi-Fi + Bluetooth + MCU” กลายเป็นแพลตฟอร์มครบเครื่อง ESP8266 ก็คือสะพานที่พิสูจน์ก่อนหน้านั้นว่า MCU เชื่อมอินเทอร์เน็ตในราคาจับต้องได้มีตลาดขนาดใหญ่จริง
+
+!!! tip "สำหรับวิดีโอ YouTube"
+    แทรก ESP8266 เป็นช่วงสั้นประมาณ 30–45 วินาทีก่อนเข้า ESP32 โดยใช้ประโยคเชื่อมว่า “แต่ก่อน ESP32 จะเกิด มีชิปหนึ่งตัวที่ทำให้ Wi-Fi ราคาประหยัดระเบิดเข้าสู่โลก Maker ก่อนแล้ว” วิธีนี้รักษาโครง 16 บทหลักไว้ แต่ไม่ทำให้เส้นประวัติศาสตร์ขาดตอน
+
 ## 14. Espressif ESP32 — ระบบไร้สายกลายเป็นคุณสมบัติพื้นฐาน
 
-ESP32 รุ่นดั้งเดิมเปิดตัวในปี 2016 และใช้ Xtensa LX6 แบบ 32-bit มีทั้งรุ่น single-core และ dual-core โดยรองรับความถี่สูงสุด 240 MHz พร้อม Wi-Fi, Bluetooth Classic, Bluetooth Low Energy, SRAM, ADC, DAC, touch sensing และ peripheral สำหรับงานควบคุมจำนวนมาก
+หลัง ESP8266 เปิดตลาด Wi-Fi SoC ราคาประหยัดแล้ว ESP32 รุ่นดั้งเดิมเปิดตัวในปี 2016 และขยายแนวคิดไปอีกขั้นด้วย Xtensa LX6 แบบ 32-bit มีทั้งรุ่น single-core และ dual-core โดยรองรับความถี่สูงสุด 240 MHz พร้อม Wi-Fi, Bluetooth Classic, Bluetooth Low Energy, SRAM, ADC, DAC, touch sensing และ peripheral สำหรับงานควบคุมจำนวนมาก
 
 ![ภาพรวม Espressif ESP32 แสดงระบบ Smart Home ที่มีเซนเซอร์ รีเลย์ มอเตอร์ และกล้อง ควบคู่กับ Dual-core และเครือข่ายไร้สาย](../../assets/images/blog/history-of-iconic-microcontrollers/14-espressif-esp32-overview.jpg)
 
@@ -272,6 +285,28 @@ Nations Technologies มีตระกูล N32 ที่ใช้แกน Ar
 N32 ไม่ได้มีอายุทางประวัติศาสตร์ยาวเท่า 8051 หรือ AVR แต่ควรปรากฏในบทความฉบับขยาย เพราะสะท้อนความเปลี่ยนแปลงของอุตสาหกรรมปัจจุบัน: นักพัฒนาไม่ได้เลือกชิปจากผู้ผลิตตะวันตกหรือญี่ปุ่นเพียงไม่กี่รายอีกต่อไป และประเด็น supply chain, เครื่องมือ, เอกสาร, community support และความเข้ากันได้ของ peripheral มีน้ำหนักมากขึ้น
 
 สำหรับการนำเสนอ ควรใช้ N32 เป็น “บทเปิดไปสู่ผู้เล่นรุ่นใหม่” ไม่ใช่อ้างว่าเป็น MCU ที่สำคัญที่สุดรุ่นหนึ่งตลอดกาล วิธีนี้จะให้บริบทที่ตรงกว่าและเปิดทางให้เพิ่ม GigaDevice GD32, WCH CH32, Bouffalo Lab หรือ RISC-V MCU ในตอนต่อไปได้
+
+## เส้นทางสำคัญที่อยู่นอก 16 บทหลัก
+
+รายชื่อ 16 บทหลักถูกเลือกเพื่อให้เล่าเป็นเส้นเรื่องเดียวได้ ไม่ได้หมายความว่าตระกูลอื่นมีความสำคัญน้อยกว่า ความจริงแล้วประวัติ MCU แตกแขนงพร้อมกันทั้งงานเครื่องใช้ไฟฟ้า ยานยนต์ อุตสาหกรรม ระบบพลังงานต่ำ ระบบอนาล็อกที่ปรับแต่งได้ และการสื่อสารไร้สาย ตารางนี้จึงทำหน้าที่เป็นแผนที่สำหรับผู้อ่านที่ต้องการศึกษาต่อหรือใช้วางแผนตอนถัดไป
+
+| ช่วงเวลาโดยประมาณ | ตระกูลหรือค่าย | สิ่งที่เพิ่มให้ภาพประวัติศาสตร์ |
+|---|---|---|
+| ปลายทศวรรษ 1980–1990 | Motorola 6805 / 68HC05 / 68HC08 | สะท้อนตลาด 8-bit ปริมาณสูงในเครื่องใช้ไฟฟ้า ยานยนต์ และงานควบคุมต้นทุนต่ำ ซึ่งเดินคู่ขนานกับ 68HC11 |
+| ต้นทศวรรษ 2000 | Cypress PSoC 1 ซึ่งปัจจุบันอยู่กับ Infineon | รวม MCU เข้ากับ analog และ digital blocks ที่กำหนดค่าได้ ทำให้คำว่า “peripheral” ไม่ได้หมายถึงวงจรที่ถูกกำหนดตายตัวเสมอไป |
+| 2009 เป็นต้นมา | Renesas RX | แสดงเส้นทาง 32-bit ที่ใช้ CPU core ของผู้ผลิตเอง เน้นสมดุลระหว่าง performance, code density, real-time control และ ecosystem ไม่ได้เดินตาม Arm เพียงทางเดียว |
+| 2010–2011 เป็นต้นมา | Freescale/NXP Kinetis | เป็นอีกแรงสำคัญของการขยาย Cortex-M4 ไปสู่งานทั่วไป เครื่องมือวัด และอุตสาหกรรม พร้อมเครื่องมือและบอร์ดพัฒนาของตนเอง |
+| 2012 เป็นต้นมา | Infineon AURIX / TriCore | เติมมิติของ MCU สำหรับยานยนต์ที่ให้ความสำคัญกับ real-time, multicore, functional safety, lockstep และ hardware security มากกว่าความสะดวกแบบบอร์ด Maker |
+| 2013 (Zero Gecko) และตระกูลต่อมา | Silicon Labs EFM32 Gecko | ขยายแนวคิด MCU พลังงานต่ำไปสู่ Cortex-M ด้วย energy modes และ peripheral ที่ทำงานได้โดยไม่ต้องปลุก CPU ตลอดเวลา |
+| กลางทศวรรษ 2010 | Atmel/Microchip SAM D21 | เป็นตัวแทน Cortex-M0+ พลังงานต่ำพร้อม USB และ analog peripheral ที่พบในบอร์ดพัฒนาและผลิตภัณฑ์ขนาดเล็กจำนวนมาก |
+| กลางทศวรรษ 2010 เป็นต้นมา | TI SimpleLink CC13xx / CC26xx | รวม application core, radio core และ sensor controller สำหรับ Sub-1 GHz, Bluetooth LE, Zigbee, Thread และระบบ multiprotocol |
+| 2013–2014 | Espressif ESP8266 | ทำให้ Wi-Fi SoC ราคาประหยัดเข้าสู่ Maker และ IoT ก่อน ESP32 และแสดงพลังของโมดูล ซอฟต์แวร์ และชุมชนที่เติบโตพร้อมตัวชิป |
+| 2013 เป็นต้นมา | GigaDevice GD32 | ขยายตลาด MCU ทางเลือกทั้ง Arm Cortex-M และภายหลัง RISC-V พร้อมสะท้อนการแข่งขันด้านราคา ความพร้อมของสินค้า และความหลากหลายของ supply chain |
+| ปลายทศวรรษ 2010 เป็นต้นมา | NXP i.MX RT | ทำให้เส้นแบ่ง MCU กับ application processor จางลง ด้วย Cortex-M ความถี่สูง หน่วยความจำขนาดใหญ่ และ interface สำหรับภาพ เสียง Ethernet และงาน real-time |
+| ต้นทศวรรษ 2020 | WCH CH32V | แสดงการมาถึงของ MCU RISC-V ราคาต่ำมากสำหรับงานควบคุมทั่วไป ซึ่งช่วยให้สถาปัตยกรรมเปิดเข้าถึงผู้เรียนและสินค้าเชิงพาณิชย์มากขึ้น |
+| ปลายทศวรรษ 2010–ต้น 2020 | Bouffalo Lab BL602 / BL604 | รวม RISC-V, Wi-Fi และ Bluetooth LE เป็นอีกแขนงของ wireless SoC นอกตระกูล Espressif และ Nordic |
+
+การเพิ่มรายชื่อทั้งหมดลงเป็นบทหลักจะทำให้วิดีโอยาวและสูญเสียเส้นเรื่อง วิธีที่เหมาะกว่าคือให้บทความทำหน้าที่เป็นฉบับขยาย ส่วนวิดีโอใช้ 16 บทหลัก + ESP8266 เป็นช่วงเชื่อม แล้วปิดท้ายด้วยภาพรวม “เส้นทางขนาน” ประมาณหนึ่งนาที หากหัวข้อใดได้รับความสนใจจึงค่อยแยกเป็นตอน เช่น MCU ยานยนต์, Wireless MCU, RISC-V MCU หรือสงคราม ecosystem ของ Cortex-M
 
 ## สิ่งที่เปลี่ยนไปมากกว่าความเร็ว
 
@@ -327,12 +362,26 @@ N32 ไม่ได้มีอายุทางประวัติศาส�
 - Renesas, [Introduction of the RL78 Microcontroller Family](https://www.renesas.com/en/about/newsroom/renesas-electronics-introduces-new-rl78-microcontroller-family-deliver-solutions-next-generation-8)
 - Nordic Semiconductor, [nRF51 launched in 2012 and the evolution to nRF52](https://www.nordicsemi.com/Nordic-news/2018/06/Powerful-wireless-SoCs-meet-advanced-wearables-demand---Part-1)
 - Nordic Semiconductor, [nRF51822 product information](https://www.nordicsemi.com/Products/nRF51822/GetStarted)
+- Espressif, [Milestones — ESP8266EX and ESP32 launch history](https://www.espressif.com/en/company/about-us/milestones)
+- Espressif, [ESP8266 volume-production announcement](https://www.espressif.com/en/news/espressif-systems-announces-volume-production-integrated-80211bgn-wi-fi-soc)
 - Espressif, [ESP32 series comparison](https://docs.espressif.com/projects/esp-idf/en/v4.3.5/esp32/hw-reference/chip-series-comparison.html)
 - Espressif, [ESP32 Series Data Sheet](https://documentation.espressif.com/esp32_datasheet_en.pdf)
 - Raspberry Pi, [Meet Raspberry Silicon: Raspberry Pi Pico](https://www.raspberrypi.com/news/raspberry-pi-silicon-pico-now-on-sale/)
 - Raspberry Pi, [RP2040 specifications](https://www.raspberrypi.com/products/rp2040/specifications/)
 - Nations Technologies, [N32 general-purpose MCU family](https://www.nationstech.com/product/general/)
 - Nations Technologies, [N32G430 product announcement](https://www.nationstech.com/about/news/product/3364.html)
+- NXP, [68HC05B6 8-bit MCU family information](https://www.nxp.com/products/68HC05B6)
+- Infineon, [PSoC 1 programmable system-on-chip](https://www.infineon.com/cms/en/product/microcontroller/legacy-microcontroller/legacy-8-bit-16-bit-microcontroller/psoc-1/)
+- Renesas, [RX MCU family development concept](https://www.renesas.com/en/products/microcontrollers-microprocessors/rx-32-bit-performance-efficiency-mcus/getting-started/concept)
+- NXP, [Kinetis K50 Cortex-M4 MCU family](https://www.nxp.com/products/K50_100)
+- Infineon, [Generations of AURIX microcontrollers](https://www.infineon.com/product-information/generations-of-aurix-microcontroller)
+- Silicon Labs, [EFM32 Zero Gecko launch](https://news.silabs.com/2013-10-09-Silicon-Labs-Launches-the-Worlds-Most-Energy-Friendly-MCUs-Based-on-the-ARM-Cortex-M0-Core)
+- Microchip, [SAM D21/DA1 Cortex-M0+ MCU data sheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU32/ProductDocuments/DataSheets/SAM-D21-DA1-Family-Data-Sheet-DS40001882H.pdf)
+- Texas Instruments, [SimpleLink low-power wireless MCU SDK and supported protocols](https://www.ti.com/tool/SIMPLELINK-LOWPOWER-SDK)
+- GigaDevice, [GD32 MCU history from 2013](https://www.gd32mcu.com/en/detail/402)
+- NXP, [i.MX RT crossover MCU series](https://www.nxp.com/products/processors-and-microcontrollers/arm-microcontrollers/i-mx-rt-crossover-mcus%3AIMX-RT-SERIES)
+- WCH, [CH32V003 RISC-V MCU reference manual](https://www.wch-ic.com/downloads/CH32V003RM_PDF.html)
+- Bouffalo Lab, [BL602/BL604 RISC-V Wi-Fi and Bluetooth LE SoCs](https://en.bouffalolab.com/product/?id=18&type=detail)
 
 ## สถานะและขั้นตอนถัดไป
 
