@@ -16,3 +16,7 @@ description: พื้นฐาน CPU, memory, clock, GPIO, peripherals, interr
 3. Clock, reset, boot และ power modes
 4. GPIO, timers, ADC, serial interfaces และ interrupts
 5. Build, flash, debug, test และ fault investigation
+
+## Historical context
+
+อ่าน [ประวัติไมโครคอนโทรลเลอร์: 16 ตระกูลสำคัญจากยุคแรกสู่ Wireless SoC](../../blog/posts/history-of-iconic-microcontrollers.md) เพื่อดูว่าพื้นฐานเรื่อง CPU, memory, clock, peripherals, power, wireless และ ecosystem เปลี่ยนแปลงอย่างไรตั้งแต่ MCU ชิปเดียวยุคแรกถึงอุปกรณ์สมัยใหม่
