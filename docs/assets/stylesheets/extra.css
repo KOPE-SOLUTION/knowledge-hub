@@ -27,8 +27,9 @@
 .md-header__button.md-logo {
   display: inline-grid;
   place-items: center;
+  min-width: 4.7rem;
   overflow: hidden;
-  padding: 0.16rem;
+  padding: 0.1rem 0.2rem;
   border-radius: 0.45rem;
   background: #ffffff;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.24);
@@ -40,10 +41,10 @@
 }
 
 .md-header__button.md-logo img {
-  width: 2rem;
+  width: 4.4rem;
   height: 2rem;
   object-fit: contain;
-  transform: scale(1.16);
+  transform: scale(1.06);
   transform-origin: center;
 }
 
@@ -411,8 +412,12 @@
 
 @media (max-width: 36rem) {
   .md-header__button.md-logo img {
-    width: 1.8rem;
+    width: 4rem;
     height: 1.8rem;
+  }
+
+  .md-header__button.md-logo {
+    min-width: 4.3rem;
   }
 
   .md-header .md-header__title {

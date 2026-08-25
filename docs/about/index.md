@@ -65,10 +65,9 @@ Email, Facebook, YouTube และ GitHub ได้รับการยืน�
 
 - Primary horizontal logo for light backgrounds: `docs/assets/images/kope-solution-logo-2027.png`
 - Light horizontal logo for dark backgrounds: `docs/assets/images/kope-solution-logo-2027-light.png`
-- Square brand mark: `docs/assets/images/kope-solution-mark-2027.png`
-- Browser favicon with a white rounded background: `docs/assets/images/kope-solution-favicon-2027.png`
+- Header and browser favicon: use the primary horizontal logo above; no standalone K mark is used
+- GitHub organization avatar: `docs/assets/images/kope-solution-github-avatar-2027.png` (circular layout preserving the complete KOPE SOLUTION artwork)
 - Profile photograph: `docs/assets/images/profile-placeholder.svg`
 - Open Graph / social image: `docs/assets/images/social-placeholder.svg`
 
-โลโก้ Version 2027 ใช้สีดำ ขาว แดง และน้ำเงิน ภายใต้แนวคิด K-Circuit โดยผสานตัวอักษร K เข้ากับเส้นวงจรสีแดง–น้ำเงิน ใช้ Via 4 จุดแบบ asymmetric และ negative space เพื่อสร้างภาพจำที่ชัดเจนและสื่อถึงการไหลของข้อมูล ไฟล์รุ่นก่อนยังถูกเก็บไว้สำหรับย้อนกลับ ส่วนภาพโปรไฟล์และ social image ยังคงเป็น placeholder
-
+โลโก้ Version 2027 ใช้สีดำ ขาว แดง และน้ำเงิน โดยออกแบบความหมายไว้ในตัวอักษร KOPE: **K — Keen** เป็น K-core แห่งความใฝ่รู้และการตัดสินใจ, **O — Observe** เป็นวงจรสีน้ำเงินที่ไหลวนกลับมาสังเกตและทบทวนอย่างมีสติ, **P — Pioneer** เป็นเส้นทางวงจรแห่งการบุกเบิก และ **E — Empower** เป็นวงจรสีแดงที่ส่งแรงขับออกไปสร้างประโยชน์ แนวคิดโดยรวมสรุปได้ว่า “ไฟให้แรงขับ น้ำให้สติ เทคโนโลยีสร้างประโยชน์” ส่วนภาพโปรไฟล์และ social image ยังคงเป็น placeholder
