@@ -16,8 +16,8 @@ theme:
   name: material
   custom_dir: overrides
   language: th
-  logo: assets/images/kope-solution-mark-2027.png
-  favicon: assets/images/kope-solution-favicon-2027.png
+  logo: assets/images/kope-solution-logo-2027.png
+  favicon: assets/images/kope-solution-logo-2027.png
   font: false
   palette:
     - media: "(prefers-color-scheme: dark)"
