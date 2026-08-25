@@ -66,6 +66,7 @@ Email, Facebook, YouTube และ GitHub ได้รับการยืน�
 - Primary horizontal logo for light backgrounds: `docs/assets/images/kope-solution-logo-2027.png`
 - Light horizontal logo for dark backgrounds: `docs/assets/images/kope-solution-logo-2027-light.png`
 - Header and browser favicon: use the primary horizontal logo above; no standalone K mark is used
+- GitHub organization avatar: `docs/assets/images/kope-solution-github-avatar-2027.png` (circular layout preserving the complete KOPE SOLUTION artwork)
 - Profile photograph: `docs/assets/images/profile-placeholder.svg`
 - Open Graph / social image: `docs/assets/images/social-placeholder.svg`
 

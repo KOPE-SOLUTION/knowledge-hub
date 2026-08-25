@@ -67,7 +67,7 @@ RSS ปัจจุบันเป็นไฟล์ static เพื่อใ�
 
 ## 12. Replace the logo { #replace-logo }
 
-ไฟล์ Version 2027 ที่ใช้งานอยู่คือ `docs/assets/images/kope-solution-logo-2027.png` สำหรับ hero, header และ Browser tab โดยไม่ใช้สัญลักษณ์ K แบบเดี่ยว ส่วน `docs/assets/images/kope-solution-logo-2027-light.png` ใช้บนพื้นหลังมืด หากเปลี่ยน artwork ในอนาคตให้แก้ path ใน `mkdocs.yml` และ `docs/index.md` พร้อมตรวจ alt text, transparency และ contrast ทั้ง light/dark mode
+ไฟล์ Version 2027 ที่ใช้งานอยู่คือ `docs/assets/images/kope-solution-logo-2027.png` สำหรับ hero, header และ Browser tab โดยไม่ใช้สัญลักษณ์ K แบบเดี่ยว ส่วน `docs/assets/images/kope-solution-logo-2027-light.png` ใช้บนพื้นหลังมืด และ `docs/assets/images/kope-solution-github-avatar-2027.png` ใช้เป็น GitHub organization avatar แบบวงกลมโดยคงโลโก้และคำว่า SOLUTION ครบถ้วน หากเปลี่ยน artwork ในอนาคตให้แก้ path ใน `mkdocs.yml` และ `docs/index.md` พร้อมตรวจ alt text, transparency และ contrast ทั้ง light/dark mode
 
 ## 13. Replace the favicon { #replace-favicon }
 
