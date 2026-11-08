@@ -2,18 +2,28 @@
 
 {% block extrahead %}
   {{ super() }}
+  {% if page and page.meta and page.meta.social_image %}
+    {% set kope_social_image = page.meta.social_image %}
+  {% else %}
+    {% set kope_social_image = config.extra.social_image %}
+  {% endif %}
+  {% if "://" in kope_social_image %}
+    {% set kope_social_image_url = kope_social_image %}
+  {% else %}
+    {% set kope_social_image_url = config.site_url ~ kope_social_image %}
+  {% endif %}
   <meta name="keywords" content="{{ config.extra.meta_keywords }}">
   <meta property="og:site_name" content="{{ config.site_name }}">
   <meta property="og:type" content="{% if page and page.meta and page.meta.og_type %}{{ page.meta.og_type }}{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page and page.title %}{{ page.title }} · {{ config.site_name }}{% else %}{{ config.site_name }}{% endif %}">
   <meta property="og:description" content="{% if page and page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}">
   <meta property="og:url" content="{% if page and page.canonical_url %}{{ page.canonical_url }}{% else %}{{ config.site_url }}{% endif %}">
-  <meta property="og:image" content="{{ config.site_url }}{% if page and page.meta and page.meta.social_image %}{{ page.meta.social_image }}{% else %}{{ config.extra.social_image }}{% endif %}">
+  <meta property="og:image" content="{{ kope_social_image_url }}">
   <meta property="og:image:alt" content="{% if page and page.meta and page.meta.social_image_alt %}{{ page.meta.social_image_alt }}{% else %}KOPE SOLUTION{% endif %}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page and page.title %}{{ page.title }} · {{ config.site_name }}{% else %}{{ config.site_name }}{% endif %}">
   <meta name="twitter:description" content="{% if page and page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}">
-  <meta name="twitter:image" content="{{ config.site_url }}{% if page and page.meta and page.meta.social_image %}{{ page.meta.social_image }}{% else %}{{ config.extra.social_image }}{% endif %}">
+  <meta name="twitter:image" content="{{ kope_social_image_url }}">
   <link rel="alternate" type="application/rss+xml" title="KOPE SOLUTION Blog RSS" href="{{ config.site_url }}blog/feed.xml">
 {% endblock %}
 

@@ -10,7 +10,7 @@ description: ช่องทางติดต่อและ Social media ข�
 <div class="card-grid card-grid--two">
   <div class="kope-card" id="email"><h3>Email</h3><p><a href="mailto:kittisak.hanheam@gmail.com">kittisak.hanheam@gmail.com</a></p></div>
   <div class="kope-card" id="github"><h3>GitHub</h3><p><a href="https://github.com/KOPE-SOLUTION">github.com/KOPE-SOLUTION ↗</a></p><p><a href="https://github.com/KOPE-SOLUTION/knowledge-hub">Repository ของเว็บไซต์ ↗</a></p></div>
-  <div class="kope-card" id="youtube"><h3>YouTube</h3><p><a href="https://www.youtube.com/@kopesolution">youtube.com/@kopesolution ↗</a></p></div>
+  <div class="kope-card" id="youtube"><h3>YouTube</h3><p><a href="https://www.youtube.com/@KOPESOLUTION">youtube.com/@KOPESOLUTION ↗</a></p></div>
   <div class="kope-card" id="facebook"><h3>Facebook</h3><p><a href="https://www.facebook.com/people/KOPE-Solution/61558114805915/">KOPE Solution on Facebook ↗</a></p></div>
   <div class="kope-card" id="line"><h3>LINE · ช่องทางสอบถามสินค้าเฟสแรก</h3><p><strong>[PLACEHOLDER — LINE Official Account URL, ID และ QR code]</strong></p><p>เมื่อเปิดใช้งาน ปุ่มสอบถามและแจ้งความประสงค์สั่งซื้อสินค้าจะเชื่อมมาที่ช่องทางนี้</p></div>
   <div class="kope-card" id="shopee"><h3>Shopee / Marketplace · เฟสอนาคต</h3><p>[PLACEHOLDER — external marketplace shop URL]</p></div>

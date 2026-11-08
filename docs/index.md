@@ -2,7 +2,6 @@
 title: Home
 description: KOPE SOLUTION — Engineering Knowledge Hub สำหรับความรู้ การทดลอง โครงการ และทรัพยากรด้านเทคโนโลยี
 hide:
-  - navigation
   - toc
 ---
 
@@ -74,23 +73,23 @@ hide:
   </div>
   <div class="kope-youtube-feature">
     <div class="kope-youtube-feature__main">
-      <p class="kope-kicker">KOPE SOLUTION ON YOUTUBE</p>
-      <h3>ดูแนวคิด เห็นขั้นตอน<br>แล้วกลับมาอ่านรายละเอียด</h3>
-      <p>วิดีโอจะเชื่อมโยงกับบทความ Source code เอกสาร และโครงการที่เกี่ยวข้อง เพื่อไม่ให้การเรียนรู้จบลงเพียงตอนดูวิดีโอ</p>
+      <p class="kope-kicker">NOW ON YOUTUBE / MACHINE LEARNING</p>
+      <h3>Naive Bayes, Bag-of-Words<br>และการจำแนกข้อความ</h3>
+      <p>ตอนล่าสุดของ Machine Learning series ภาษาไทย พร้อมเส้นทางเรียนต่อเนื่องด้าน Embedded, Industrial, Data และ AI จาก Playlist จริงของช่อง</p>
       <div class="kope-actions">
-        <a class="kope-button kope-button--primary" href="https://www.youtube.com/@kopesolution?sub_confirmation=1">ติดตามช่อง ↗</a>
+        <a class="kope-button kope-button--primary" href="https://www.youtube.com/watch?v=C0Z1KjVDiss">ดูตอนล่าสุด ↗</a>
         <a class="kope-button" href="youtube/">ศูนย์รวม YouTube</a>
       </div>
     </div>
     <div class="kope-series-plan">
-      <p>หัวข้อที่กำลังจัดเตรียม</p>
+      <p>PLAYLIST ที่เลือกเริ่มได้ทันที</p>
       <ol>
-        <li>Arduino Uno Embedded Roadmap</li>
-        <li>AVR Bare-Metal C</li>
-        <li>ESP32 & ESP-IDF</li>
-        <li>Sensors, Measurement & IIoT</li>
+        <li>Machine Learning ด้วย Python</li>
+        <li>Arduino Uno Embedded Systems</li>
+        <li>PLC Programming Roadmap</li>
+        <li>Pandas สำหรับ Data Engineering</li>
       </ol>
-      <small>จะเพิ่มชื่อวิดีโอ วันที่ และภาพปกเมื่อเนื้อหาพร้อมเผยแพร่จริง</small>
+      <small>ชื่อ Playlist และจำนวนวิดีโออ้างอิงจากช่อง @KOPESOLUTION ณ วันที่ตรวจสอบ</small>
     </div>
   </div>
 </section>
@@ -165,7 +164,7 @@ hide:
   <nav class="kope-contact-strip" aria-label="ช่องทางติดต่อ KOPE SOLUTION">
     <a href="mailto:kittisak.hanheam@gmail.com">Email <span>↗</span></a>
     <a href="https://github.com/KOPE-SOLUTION">GitHub <span>↗</span></a>
-    <a href="https://www.youtube.com/@kopesolution">YouTube <span>↗</span></a>
+    <a href="https://www.youtube.com/@KOPESOLUTION">YouTube <span>↗</span></a>
     <a href="https://www.facebook.com/people/KOPE-Solution/61558114805915/">Facebook <span>↗</span></a>
     <a href="contact/#line">LINE <small>รออัปเดต</small></a>
   </nav>
