@@ -35,10 +35,10 @@ theme:
         icon: material/weather-night
         name: เปลี่ยนเป็นโหมดมืด
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.indexes
     - navigation.path
+    - navigation.tracking
     - navigation.top
     - navigation.footer
     - toc.follow
@@ -96,7 +96,7 @@ extra:
       link: https://github.com/KOPE-SOLUTION
       name: KOPE SOLUTION on GitHub
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@kopesolution
+      link: https://www.youtube.com/@KOPESOLUTION
       name: KOPE SOLUTION on YouTube
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/people/KOPE-Solution/61558114805915/
