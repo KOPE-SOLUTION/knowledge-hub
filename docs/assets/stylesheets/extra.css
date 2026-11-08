@@ -924,8 +924,474 @@
   background: rgba(255, 198, 109, 0.09);
 }
 
+/* KOPE Edge AI Hub — product editorial, inspired by utility-first layout principles. */
+.software-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 0.92fr) minmax(22rem, 1.08fr);
+  overflow: hidden;
+  margin: 0 0 1rem;
+  border: 1px solid var(--kope-line);
+  border-radius: 0.7rem;
+  background: #071018;
+  color: #f5fbff;
+}
+
+.software-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 42%;
+  height: 3px;
+  background: var(--kope-blue);
+}
+
+.software-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto auto;
+  width: 22%;
+  height: 3px;
+  background: var(--kope-red);
+}
+
+.software-hero__content {
+  min-width: 0;
+  padding: clamp(1.6rem, 4vw, 3.8rem);
+  background:
+    linear-gradient(rgba(85, 230, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(85, 230, 255, 0.035) 1px, transparent 1px);
+  background-size: 2rem 2rem;
+}
+
+.software-eyebrow,
+.software-section__head > span,
+.software-status-panel > div > span {
+  display: block;
+  margin-bottom: 0.7rem;
+  color: var(--kope-cyan);
+  font-family: var(--md-code-font-family);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.software-hero h1 {
+  margin: 0 0 1rem;
+  color: #fff;
+  font-size: clamp(2.5rem, 5.4vw, 5rem);
+  line-height: 0.98;
+  letter-spacing: -0.055em;
+}
+
+.software-hero__lead {
+  max-width: 42rem;
+  color: #c5d6e0;
+  font-size: clamp(1rem, 1.7vw, 1.2rem);
+  line-height: 1.7;
+}
+
+.software-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1.4rem;
+}
+
+.software-badges span {
+  padding: 0.35rem 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0.25rem;
+  color: #b9cbd6;
+  font-family: var(--md-code-font-family);
+  font-size: 0.62rem;
+  letter-spacing: 0.03em;
+}
+
+.software-hero__visual {
+  display: flex;
+  min-width: 0;
+  margin: 0;
+  flex-direction: column;
+  justify-content: center;
+  background: #0c171f;
+}
+
+.software-hero__visual img {
+  display: block;
+  width: 100%;
+  min-height: 24rem;
+  margin: 0;
+  object-fit: cover;
+  object-position: 46% center;
+}
+
+.software-hero__visual figcaption {
+  padding: 0.65rem 0.9rem;
+  color: #8ea3b0;
+  font-family: var(--md-code-font-family);
+  font-size: 0.6rem;
+  line-height: 1.5;
+}
+
+.software-subnav {
+  position: sticky;
+  top: 3.2rem;
+  z-index: 5;
+  display: flex;
+  overflow-x: auto;
+  margin: 0 0 3rem;
+  border: 1px solid var(--kope-line);
+  background: color-mix(in srgb, var(--md-default-bg-color) 94%, transparent);
+  backdrop-filter: blur(0.8rem);
+  scrollbar-width: thin;
+}
+
+.md-typeset .software-subnav a {
+  flex: 0 0 auto;
+  padding: 0.72rem 0.9rem;
+  border-right: 1px solid var(--kope-line);
+  color: var(--kope-muted);
+  font-family: var(--md-code-font-family);
+  font-size: 0.65rem;
+  text-decoration: none;
+}
+
+.md-typeset .software-subnav a:hover,
+.md-typeset .software-subnav a:focus-visible {
+  color: var(--md-default-fg-color);
+  background: rgba(85, 230, 255, 0.06);
+}
+
+.software-section {
+  margin: 4.5rem 0;
+  scroll-margin-top: 7rem;
+}
+
+.software-section__head {
+  display: grid;
+  grid-template-columns: minmax(9rem, 0.28fr) minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: end;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--kope-line);
+}
+
+.software-section__head > span {
+  margin: 0;
+}
+
+.software-section__head h2 {
+  margin: 0;
+  font-size: clamp(1.7rem, 3vw, 2.7rem);
+}
+
+.software-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-top: 1px solid var(--kope-line);
+  border-left: 1px solid var(--kope-line);
+}
+
+.software-feature-grid article {
+  min-height: 13rem;
+  padding: 1.25rem;
+  border-right: 1px solid var(--kope-line);
+  border-bottom: 1px solid var(--kope-line);
+}
+
+.software-feature-grid b,
+.hardware-candidate-grid article > span,
+.product-feature-card__copy > span,
+.kope-software-promo__copy > p:first-child {
+  color: #31bfd8;
+  font-family: var(--md-code-font-family);
+  font-size: 0.63rem;
+  letter-spacing: 0.08em;
+}
+
+.software-feature-grid h3,
+.hardware-candidate-grid h3 {
+  margin: 1.2rem 0 0.65rem;
+}
+
+.software-feature-grid p,
+.hardware-candidate-grid p {
+  color: var(--kope-muted);
+  font-size: 0.84rem;
+  line-height: 1.65;
+}
+
+.software-flow {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border-block: 1px solid var(--kope-line);
+}
+
+.software-flow > div {
+  min-height: 10rem;
+  padding: 1.2rem;
+}
+
+.software-flow > div + div {
+  border-left: 1px solid var(--kope-line);
+}
+
+.software-flow span,
+.software-flow strong,
+.software-flow small {
+  display: block;
+}
+
+.software-flow span {
+  color: var(--kope-red);
+  font-family: var(--md-code-font-family);
+  font-size: 0.65rem;
+}
+
+.software-flow strong {
+  margin: 1.45rem 0 0.5rem;
+  font-size: 1.15rem;
+}
+
+.software-flow small {
+  color: var(--kope-muted);
+  line-height: 1.6;
+}
+
+.software-screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.software-screenshot-grid figure {
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid var(--kope-line);
+  border-radius: 0.45rem;
+  background: var(--kope-panel);
+}
+
+.software-screenshot-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin: 0;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.software-screenshot-grid figcaption {
+  padding: 0.75rem 0.9rem;
+  color: var(--kope-muted);
+  font-size: 0.72rem;
+}
+
+.hardware-candidate-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 1.5rem;
+  padding: 1px;
+  background: var(--kope-line);
+}
+
+.hardware-candidate-grid article {
+  padding: 1.35rem;
+  background: var(--md-default-bg-color);
+}
+
+.hardware-candidate-grid article > span {
+  color: var(--kope-red);
+}
+
+.hardware-candidate-grid a {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.software-status-panel {
+  display: grid;
+  grid-template-columns: minmax(14rem, 0.42fr) minmax(0, 1fr);
+  gap: 2rem;
+  padding: clamp(1.4rem, 3vw, 2.5rem);
+  border-left: 3px solid var(--kope-red);
+  background: color-mix(in srgb, var(--kope-panel) 86%, transparent);
+}
+
+.software-status-panel h2 {
+  margin: 0;
+}
+
+.software-status-panel ul {
+  margin: 0;
+}
+
+.software-status-panel li {
+  margin-bottom: 0.6rem;
+}
+
+.software-share {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.md-typeset .software-share a {
+  display: flex;
+  min-height: 3.2rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--kope-line);
+  border-radius: 0.35rem;
+  color: var(--md-default-fg-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.software-share a::before {
+  content: "↗";
+  margin-right: 0.55rem;
+  font-family: var(--md-code-font-family);
+  font-size: 0.7rem;
+}
+
+.software-share .share-facebook:hover { border-color: #1877f2; color: #1877f2; }
+.software-share .share-line:hover { border-color: #06c755; color: #06a948; }
+.software-share .share-linkedin:hover { border-color: #0a66c2; color: #0a66c2; }
+.software-share .share-x:hover { border-color: var(--md-default-fg-color); }
+
+.product-feature-card,
+.kope-software-promo {
+  display: grid;
+  grid-template-columns: minmax(20rem, 0.9fr) minmax(22rem, 1.1fr);
+  overflow: hidden;
+  margin: 1.5rem 0 2.5rem;
+  border: 1px solid var(--kope-line);
+  border-radius: 0.6rem;
+}
+
+.product-feature-card__copy,
+.kope-software-promo__copy {
+  padding: clamp(1.5rem, 3.5vw, 3rem);
+}
+
+.product-feature-card__copy h2,
+.kope-software-promo__copy h3 {
+  margin: 0.7rem 0 0.85rem;
+  font-size: clamp(1.7rem, 3vw, 2.6rem);
+}
+
+.product-feature-card__copy p,
+.product-feature-card__copy li,
+.kope-software-promo__copy p,
+.kope-software-promo__copy li {
+  color: var(--kope-muted);
+  line-height: 1.65;
+}
+
+.product-feature-card__media,
+.kope-software-promo__media {
+  display: block;
+  min-height: 24rem;
+  background: #071018;
+}
+
+.product-feature-card__media img,
+.kope-software-promo__media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 24rem;
+  margin: 0;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.kope-software-promo {
+  grid-template-columns: minmax(22rem, 1.08fr) minmax(20rem, 0.92fr);
+}
+
+.kope-software-promo__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1.3rem;
+}
+
+.kope-software-promo__links > a:not(.kope-text-link) {
+  color: var(--kope-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.active-project-card {
+  display: grid;
+  grid-template-columns: minmax(20rem, 1fr) minmax(18rem, 0.8fr);
+  gap: 2rem;
+  align-items: start;
+  margin: 1.2rem 0 3rem;
+  padding: clamp(1.3rem, 3vw, 2.2rem);
+  border: 1px solid var(--kope-line);
+  border-left: 3px solid var(--kope-cyan);
+  background: color-mix(in srgb, var(--kope-panel) 86%, transparent);
+}
+
+.active-project-card h2 {
+  margin: 0.75rem 0 0.5rem;
+}
+
+.active-project-card dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin: 0;
+  background: var(--kope-line);
+}
+
+.active-project-card dl > div {
+  padding: 0.75rem;
+  background: var(--md-default-bg-color);
+}
+
+.active-project-card dt {
+  color: var(--kope-muted);
+  font-family: var(--md-code-font-family);
+  font-size: 0.62rem;
+}
+
+.active-project-card dd {
+  margin: 0.25rem 0 0;
+  font-weight: 700;
+}
+
+.active-project-card > .md-button {
+  grid-column: 1 / -1;
+  justify-self: start;
+}
+
 @media (max-width: 76rem) {
   .card-grid--four { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .software-feature-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .software-flow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .software-flow > div:nth-child(3) {
+    border-top: 1px solid var(--kope-line);
+    border-left: 0;
+  }
+
+  .software-flow > div:nth-child(4) {
+    border-top: 1px solid var(--kope-line);
+  }
 
   .kope-intent-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -944,8 +1410,40 @@
   .kope-hero,
   .product-hero,
   .kope-youtube-feature,
-  .kope-article-feature {
+  .kope-article-feature,
+  .software-hero,
+  .product-feature-card,
+  .kope-software-promo,
+  .software-status-panel,
+  .active-project-card {
     grid-template-columns: 1fr;
+  }
+
+  .software-feature-grid,
+  .software-screenshot-grid,
+  .hardware-candidate-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .software-section__head {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .software-hero__visual img,
+  .product-feature-card__media,
+  .product-feature-card__media img,
+  .kope-software-promo__media,
+  .kope-software-promo__media img {
+    min-height: 17rem;
+  }
+
+  .software-share {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .active-project-card > .md-button {
+    grid-column: auto;
   }
 
   .kope-hero {
@@ -1013,6 +1511,30 @@
 
   .kope-hero {
     padding: 1.35rem;
+  }
+
+  .software-hero__content {
+    padding: 1.35rem;
+  }
+
+  .software-hero h1 {
+    font-size: clamp(2.2rem, 12vw, 3rem);
+  }
+
+  .software-flow,
+  .software-share,
+  .active-project-card dl {
+    grid-template-columns: 1fr;
+  }
+
+  .software-flow > div + div,
+  .software-flow > div:nth-child(4) {
+    border-top: 1px solid var(--kope-line);
+    border-left: 0;
+  }
+
+  .software-section {
+    margin: 3.5rem 0;
   }
 
   .kope-hero h1 {

@@ -202,9 +202,12 @@ nav:
       - Computer Vision Project: portfolio/projects/computer-vision-project.md
       - Sensor and Measurement Experiments: portfolio/projects/sensor-measurement-experiments.md
       - PCB Product Development: portfolio/projects/pcb-product-development.md
-  - Projects: projects/index.md
+  - Projects:
+      - Active Development: projects/index.md
+      - KOPE Edge AI Hub: projects/kope-edge-ai-hub.md
   - Products:
       - แค็ตตาล็อกผลิตภัณฑ์: products/index.md
+      - KOPE Edge AI Hub: products/kope-edge-ai-hub.md
       - Notification Lamp Mini: products/notification-lamp-mini.md
   - Downloads: downloads/index.md
   - Contact: contact/index.md

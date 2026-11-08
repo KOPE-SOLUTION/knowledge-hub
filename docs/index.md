@@ -127,14 +127,23 @@ hide:
 
 <section class="kope-home-section">
   <div class="kope-section-head">
-    <p>06 / PRODUCT DEVELOPMENT</p>
-    <h2>ผลิตภัณฑ์ที่เปิดเผยตามสถานะจริง</h2>
+    <p>06 / SOFTWARE SPOTLIGHT</p>
+    <h2>เริ่มจาก Software ที่ตรวจดูได้ก่อน</h2>
   </div>
-  <div class="kope-product-note">
-    <div><span>CONCEPT / PLACEHOLDER</span><h3>Notification Lamp Mini</h3></div>
-    <p>พื้นที่ตัวอย่างสำหรับพัฒนา Product showcase ข้อมูลราคา สเปก สถานะการผลิต และช่องทางสั่งซื้อจะเผยแพร่เมื่อได้รับการยืนยันแล้วเท่านั้น</p>
-    <a class="kope-text-link" href="products/notification-lamp-mini/">ดูโครงหน้าผลิตภัณฑ์ <span>→</span></a>
-  </div>
+  <article class="kope-software-promo">
+    <a class="kope-software-promo__media" href="products/kope-edge-ai-hub/"><img src="assets/images/kope-edge-ai-hub-project-catalogue.jpg" alt="หน้าภาพรวมโครงการ KOPE Edge AI Hub"></a>
+    <div class="kope-software-promo__copy">
+      <p>DEVELOPMENT PREVIEW · LOCAL-FIRST</p>
+      <h3><a href="products/kope-edge-ai-hub/">KOPE Edge AI Hub</a></h3>
+      <p>พื้นที่ทำงานวิศวกรรมสำหรับจัดระเบียบ Site, Device, MQTT, ROI, Preview, use-case catalogue และ Processing plan โดยแยกสิ่งที่ทำงานแล้วออกจากสิ่งที่ยังเป็นแผนอย่างชัดเจน</p>
+      <ul>
+        <li>50 use-case plans ใน 11 หมวด — ไม่ใช่โมเดลพร้อมใช้ทั้งหมด</li>
+        <li>วางแผน Device / Gateway / Cloud / Hybrid รายโครงการ</li>
+        <li>Hardware package และ enclosure ยังอยู่ระหว่างประเมิน</li>
+      </ul>
+      <div class="kope-software-promo__links"><a class="kope-text-link" href="products/kope-edge-ai-hub/">ดู Software showcase <span>→</span></a><a href="projects/kope-edge-ai-hub/">สถานะการพัฒนา</a></div>
+    </div>
+  </article>
 </section>
 
 <section class="kope-home-section">

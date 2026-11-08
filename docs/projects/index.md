@@ -7,8 +7,25 @@ description: พื้นที่ติดตามงานที่กำล�
 
 Projects ใช้สำหรับงานที่ **กำลังพัฒนา** ส่วน [Portfolio](../portfolio/index.md) ใช้คัดเลือกงานที่มีชิ้นงานหรือ demonstration พร้อมนำเสนอ การแยกสองส่วนนี้ช่วยไม่ให้ความคืบหน้าระหว่างทางถูกเข้าใจว่าเป็นผลลัพธ์ที่เสร็จแล้ว
 
-!!! info "ยังไม่มีโครงการ active ที่ยืนยันแล้ว"
-    เจ้าของเว็บไซต์ยังไม่ได้ให้รายชื่อ สถานะ หรือข้อมูลโครงการจริง หน้านี้จึงไม่สร้างโครงการสมมติ
+!!! info "อัปเดตล่าสุด 8 พฤศจิกายน 2026"
+    เพิ่ม KOPE Edge AI Hub เป็นโครงการ Active Development แรกของเว็บไซต์ โดยแยกสิ่งที่สาธิตได้แล้ว ออกจาก catalogue ที่ยังเป็นแผนและ hardware ที่ยังอยู่ระหว่างประเมิน
+
+## Active now
+
+<article class="active-project-card">
+  <div>
+    <span class="status-badge status--prototype">Development Preview</span>
+    <h2><a href="kope-edge-ai-hub/">KOPE Edge AI Hub</a></h2>
+    <p>Local-first engineering workspace สำหรับจัดระบบ Site, Device, MQTT, ROI, Preview, Project catalogue และ Processing plan ของงาน Edge AI</p>
+  </div>
+  <dl>
+    <div><dt>Software</dt><dd>Prototype</dd></div>
+    <div><dt>Public demo</dt><dd>Not available</dd></div>
+    <div><dt>Hardware package</dt><dd>Research</dd></div>
+    <div><dt>Next gate</dt><dd>Reference hardware test</dd></div>
+  </dl>
+  <a class="md-button md-button--primary" href="kope-edge-ai-hub/">ดูสถานะโครงการ</a>
+</article>
 
 ## Project page fields
 
@@ -23,15 +40,16 @@ Projects ใช้สำหรับงานที่ **กำลังพั�
 - Known issues และข้อจำกัด
 - Next steps
 
-## Project board แบบ static
+## วิธีอ่านสถานะโครงการ
 
-<div class="card-grid">
-  <div class="kope-card"><span class="status-badge status--planning">Planning</span><h3>[PROJECT PLACEHOLDER]</h3><p>[วัตถุประสงค์และ milestone ถัดไป]</p></div>
-  <div class="kope-card"><span class="status-badge status--prototype">Prototype</span><h3>[PROJECT PLACEHOLDER]</h3><p>[ลิงก์เอกสารและ known issues]</p></div>
-  <div class="kope-card"><span class="status-badge status--ongoing">Ongoing</span><h3>[PROJECT PLACEHOLDER]</h3><p>[วันที่อัปเดตจริงและ next steps]</p></div>
-</div>
+สถานะในหน้านี้บอกระดับของงาน ไม่ใช่คำรับรองเชิงพาณิชย์:
 
-ตัวอย่าง card ด้านบนเป็น placeholder เท่านั้น ไม่ได้หมายถึงมีโครงการอยู่ในสถานะเหล่านี้ เว็บไซต์ไม่มี project-management backend, user account หรือ database
+- **Development Preview** — มีชิ้นงานให้ตรวจหน้าจอและ workflow ในสภาพแวดล้อมพัฒนา
+- **Prototype** — ฟังก์ชันบางส่วนทำงาน แต่ interface, deployment และการรองรับผู้ใช้ยังเปลี่ยนได้
+- **Research** — กำลังเก็บข้อมูลหรือเปรียบเทียบตัวเลือก ยังไม่ตัดสินใจเป็นสินค้า
+- **Completed** — ใช้เมื่อมีขอบเขต หลักฐาน และผลส่งมอบที่ยืนยันแล้วเท่านั้น
+
+เว็บไซต์ยังไม่มี project-management backend, user account หรือ database; ข้อมูลทั้งหมดแก้ไขผ่าน Markdown และ Git
 
 [เริ่มจาก Active project template →](../templates/active-project.md)
 
